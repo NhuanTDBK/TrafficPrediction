@@ -18,7 +18,7 @@ from lasagne.nonlinearities import rectify
 from nolearn.lasagne import NeuralNet
 from nolearn.lasagne import TrainSplit
 from pandas import HDFStore
-from DemoPyEvolve import PyEvolve
+#from DemoPyEvolve import PyEvolve
 storeResult=HDFStore("storeResult.h5")
 class NNGridSearch:
     def __init__(self,X_training,y_training,n_sample2,n_test2):
@@ -36,7 +36,7 @@ class NNGridSearch:
         print "Neural network initialize"
     def gridsearch_alpha(self,learning_rate,index,params=None):
         hidden_unit = ((index+1)*2)/3
-        self.l_in = ls.layers.InputLayer(shape=(None,n_input),input_var=None,W=params.T)
+        self.l_in = ls.layers.InputLayer(shape=(None,n_input),input_var=None)
         self.l_hidden = ls.layers.DenseLayer(self.l_in,num_units=15,nonlinearity=ls.nonlinearities.rectify)
         self.network = l_out = ls.layers.DenseLayer(self.l_hidden,num_units=1)
         list_results = np.array([learning_rate.shape[0]],dtype=np.float64)
@@ -72,13 +72,13 @@ for i in list_ninput:
     print '.'
     n_input = i
     from __init__ import *
-    geneticEngine = PyEvolve(n_input)
-    geneticEngine.fit()
-    nnParams = geneticEngine.getParam()
+#    geneticEngine = PyEvolve(n_input)
+#    geneticEngine.fit()
+#    nnParams = geneticEngine.getParam()
     X_training, y_training,n_sample2,n_test2 = get_training(i)
     result = np.zeros(len(learning_rate),dtype=np.float64)
     test = NNGridSearch(X_training,y_training,n_sample2,n_test2)
-    list_results[2-i] = test.gridsearch_alpha(learning_rate,i,nnParams)
+    list_results[2-i] = test.gridsearch_alpha(learning_rate,i)
     
 # In[44]:
 print "Saving data..."
