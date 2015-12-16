@@ -5,6 +5,7 @@
 
 import pandas as pd
 import numpy as np
+import sys
 from pandas import HDFStore
 
 def normalize(dataCount):
@@ -14,7 +15,8 @@ def normalize(dataCount):
 
 # In[53]:
 
-raw_data_name = "ita_public_tools/output/data.csv"
+raw_data_name = sys.argv[1]
+#"ita_public_tools/output/data.csv"
 raw_data = pd.read_csv(raw_data_name)
 store = HDFStore("storeTraffic.h5")
 # In[62]:
