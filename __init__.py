@@ -5,9 +5,9 @@ store = HDFStore("storeTraffic.h5")
 def get_training(n_input):
  #   n_row = 578 
  # group du lieu
-    data = store["connTrain"]
-    dataTest = store["connTest"]
-   
+    data = store["connTrain"][0:142*2]
+    dataTest = store["connTest"][0:142*2]
+    
     n_row = data.shape[0]
     print "Generate X_traing, y_traing"
     print "X_training loading..."
