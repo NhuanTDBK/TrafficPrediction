@@ -37,13 +37,13 @@ for i in np.arange(0,length):
     dataCount[i] = tmp.sum()
     init_list+=jump_list
 print "Saving..."
-store["connTrain"]=normalize(pd.Series(dataCount[:852]))
+store["connTrain"]=normalize(pd.Series(dataCount))
 # raw_data_name = "ita_public_tools/output/data.csv"
 # raw_data = pd.read_csv(raw_data_name)
 # store = HDFStore("storeTraffic.h5")
 # data = raw_data.groupby('Timestamp').count()["Timestamp"]
-store["connTest"] = normalize(pd.Series(dataCount[852:]))
+store["connTest"] = normalize(pd.Series(dataCount))
 store["raw_conn_train"]=pd.Series(dataCount)
-store["raw_conn_test"] = pd.Series(dataCount[0:600])
+store["raw_conn_test"] = pd.Series(dataCount)
 
 
