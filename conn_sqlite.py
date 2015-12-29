@@ -1,36 +1,38 @@
 
 # coding: utf-8
 
-# In[36]:
+# In[5]:
 
 import numpy as np
 import pandas as pd
 import sqlite3
+import sys
 from os import listdir
 
 
-# In[31]:
+# In[16]:
 
 class TrafficExtract():
     def __init__(self):
         self.conn = sqlite3.connect('trafficdb')
-        self.c = conn.cursor()
+        self.c = self.conn.cursor()
         self.table_name = "timetraffic"
         self.table_workload = "workload"
-        self.c.execute("DELETE FROM %s"%table_workload)
+        self.c.execute("DELETE FROM %s"%self.table_workload)
     def record_traffic(self,raw_data_name):
+        print "Processing %s"%raw_data_name
         raw_data = pd.read_csv(raw_data_name)
         length = raw_data.shape[0]
         # In[ ]:
         # dataCount = np.array(np.zeros(length))
         print "Flush out all data..."
-        self.c.execute("DELETE FROM %s"%table_name)
+        self.c.execute("DELETE FROM %s"%self.table_name)
         for i in np.arange(0,length):
             index = raw_data.irow(i)["Timestamp"]
-            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_name,index,1))
+            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(self.table_name,index,1))
         dt = self.c.execute('select timestamp,count(timestamp) from %s group by timestamp'%table_name).fetchall()
         for item in dt:
-            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_workload,item[0],item[1]))
+            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(self.table_workload,item[0],item[1]))
     def readFolder(self,folder_name):
         files = listdir(folder_name)
         for filename in files:
@@ -41,7 +43,7 @@ class TrafficExtract():
         self.conn.close()
 
 
-# In[32]:
+# In[12]:
 
 # raw_data_name = sys.argv[1]
 # def record_traffic(raw_data_name):
@@ -59,7 +61,7 @@ class TrafficExtract():
 #         self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_workload,item[0],item[1]))
 
 
-# In[35]:
+# In[13]:
 
 
 #     c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_workload,i,tmp_sum))
@@ -73,7 +75,7 @@ class TrafficExtract():
 #     c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_workload,i,tmp_sum))
 
 
-# In[ ]:
+# In[14]:
 
 # files = listdir(sys.argv[1])
 # for filename in files:
@@ -81,9 +83,10 @@ class TrafficExtract():
 #     record_traffic(filename)
 
 
-# In[6]:
+# In[17]:
 
-
+worker = TrafficExtract()
+worker.readFolder(sys.argv[1])
 
 
 # In[16]:
