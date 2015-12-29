@@ -11,29 +11,52 @@ from os import listdir
 
 # In[31]:
 
-conn = sqlite3.connect('trafficdb')
-c = conn.cursor()
-table_name = "timetraffic"
-table_workload = "workload"
-c.execute("DELETE FROM %s"%table_workload)
+class TrafficExtract():
+    def __init__(self):
+        self.conn = sqlite3.connect('trafficdb')
+        self.c = conn.cursor()
+        self.table_name = "timetraffic"
+        self.table_workload = "workload"
+        self.c.execute("DELETE FROM %s"%table_workload)
+    def record_traffic(self,raw_data_name):
+        raw_data = pd.read_csv(raw_data_name)
+        length = raw_data.shape[0]
+        # In[ ]:
+        # dataCount = np.array(np.zeros(length))
+        print "Flush out all data..."
+        self.c.execute("DELETE FROM %s"%table_name)
+        for i in np.arange(0,length):
+            index = raw_data.irow(i)["Timestamp"]
+            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_name,index,1))
+        dt = self.c.execute('select timestamp,count(timestamp) from %s group by timestamp'%table_name).fetchall()
+        for item in dt:
+            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_workload,item[0],item[1]))
+    def readFolder(self,folder_name):
+        files = listdir(folder_name)
+        for filename in files:
+            print "Reading %s"%filename
+            self.record_traffic("%s/%s"%(folder_name,filename))
+        self.conn.commit()
+    def finalize(self):
+        self.conn.close()
 
 
 # In[32]:
 
 # raw_data_name = sys.argv[1]
-def record_traffic(raw_data_name):
-    raw_data = pd.read_csv(raw_data_name)
-    length = raw_data.shape[0]
-    # In[ ]:
-    # dataCount = np.array(np.zeros(length))
-    print "Flush out all data..."
-    c.execute("DELETE FROM %s"%table_name)
-    for i in np.arange(0,length):
-        index = raw_data.irow(i)["Timestamp"]
-        c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_name,index,1))
-    dt = c.execute('select timestamp,count(timestamp) from %s group by timestamp'%table_name).fetchall()
-    for item in dt:
-        c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_workload,item[0],item[1]))
+# def record_traffic(raw_data_name):
+#     raw_data = pd.read_csv(raw_data_name)
+#     length = raw_data.shape[0]
+#     # In[ ]:
+#     # dataCount = np.array(np.zeros(length))
+#     print "Flush out all data..."
+#     self.c.execute("DELETE FROM %s"%table_name)
+#     for i in np.arange(0,length):
+#         index = raw_data.irow(i)["Timestamp"]
+#         self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_name,index,1))
+#     dt = self.c.execute('select timestamp,count(timestamp) from %s group by timestamp'%table_name).fetchall()
+#     for item in dt:
+#         self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(table_workload,item[0],item[1]))
 
 
 # In[35]:
@@ -52,20 +75,20 @@ def record_traffic(raw_data_name):
 
 # In[ ]:
 
-files = listdir(sys.argv[1])
-for filename in files:
-    print "Reading %s"%filename
-    record_traffic(filename)
+# files = listdir(sys.argv[1])
+# for filename in files:
+#     print "Reading %s"%filename
+#     record_traffic(filename)
 
 
 # In[6]:
 
-conn.commit()
+
 
 
 # In[16]:
 
-conn.close()
+
 
 
 # In[ ]:
