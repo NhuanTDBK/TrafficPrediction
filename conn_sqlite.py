@@ -21,24 +21,29 @@ class TrafficExtract():
         self.c.execute("DELETE FROM %s"%self.table_workload)
     def record_traffic(self,raw_data_name):
         print "Processing %s"%raw_data_name
-        raw_data = pd.read_csv(raw_data_name)
+        raw_data = pd.read_csv(raw_data_name,low_memory=False)
         length = raw_data.shape[0]
         # In[ ]:
         # dataCount = np.array(np.zeros(length))
         print "Flush out all data..."
         self.c.execute("DELETE FROM %s"%self.table_name)
         for i in np.arange(0,length):
-            index = raw_data.irow(i)["Timestamp"]
-            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(self.table_name,index,1))
-        dt = self.c.execute('select timestamp,count(timestamp) from %s group by timestamp'%table_name).fetchall()
+	    try:
+ 	           index = raw_data.irow(i)["Timestamp"]
+	           self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(self.table_name,int(index),1))
+	    except Exception as e:
+		   print index
+		   pass			
+        dt = self.c.execute('select timestamp,count(timestamp) from %s group by timestamp'%self.table_name).fetchall()
         for item in dt:
-            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(self.table_workload,item[0],item[1]))
+            self.c.execute('INSERT INTO %s VALUES (%d,%d)'%(self.table_workload,int(item[0]),int(item[1])))
     def readFolder(self,folder_name):
         files = listdir(folder_name)
         for filename in files:
             print "Reading %s"%filename
             self.record_traffic("%s/%s"%(folder_name,filename))
         self.conn.commit()
+	self.finalize()
     def finalize(self):
         self.conn.close()
 
