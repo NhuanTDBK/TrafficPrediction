@@ -24,7 +24,7 @@ storeResult=HDFStore("storeResult.h5")
 
 # In[ ]:
 
-n_input = 16
+n_input = 7
 n_gen = 400
 score = 1
 score_min = 1
