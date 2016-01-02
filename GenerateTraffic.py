@@ -17,7 +17,7 @@ def normalize(dataCount):
 
 raw_data_name = sys.argv[1]
 #"ita_public_tools/output/data.csv"
-raw_data = pd.read_csv(raw_data_name)
+raw_data = pd.read_csv("/home/nhuan/Tools/ita_public_tools/output/data.csv",names=["Timestamp"])
 store = HDFStore("storeTraffic.h5")
 # In[62]:
 print "Loading storage"

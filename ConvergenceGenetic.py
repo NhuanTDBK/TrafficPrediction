@@ -33,6 +33,7 @@ genetic = PyEvolve(n_input)
 while((score>=0.001) or (n_gen<100000)):
     print n_gen
     score = genetic.fit(n_gen)
+    print score
     if(score_min>score):
         score_min = score
     if(gen_min>n_gen):
