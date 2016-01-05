@@ -80,7 +80,7 @@ for i in list_ninput:
     geneticEngine = PyEvolve(n_input)
     geneticEngine.fit()
     nnParams = geneticEngine.getParam()
-    X_training, y_training,n_sample2,n_test2 = get_training(i,1)
+    X_training, y_training,n_sample2,n_test2 = get_training(i,n_periodic)
     result = np.zeros(len(learning_rate),dtype=np.float64)
     test = NNGridSearch(X_training,y_training,n_sample2,n_test2)
     list_results[2-i] = test.gridsearch_alpha(learning_rate,i,nnParams)
