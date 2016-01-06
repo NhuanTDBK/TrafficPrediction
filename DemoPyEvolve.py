@@ -14,7 +14,7 @@ class PyEvolve:
         self.n_input = n_input
         self.X_data, self.y_data,self.x_test,self.y_test = get_training(n_input)
         self.fan_in = n_input
-	self.fan_out = 15
+        self.fan_out = 15
         self.theta_shape = (self.n_input,1)
     def activation(self,x):
     #         return 1.0 / (1 + np.exp(-x))
@@ -25,7 +25,7 @@ class PyEvolve:
     def costFunction(self,X,y,theta):
             m = float(len(X))
             hThetaX = np.array(self.activation(np.dot(X,theta)))
-            return np.sum(np.abs(y-hThetaX))
+            return mean_squared_error(y,hThetaX)
     def eval_score(self,chronosome):
             theta = np.zeros(self.theta_shape)
             for i in np.arange(self.theta_shape[0]) :
