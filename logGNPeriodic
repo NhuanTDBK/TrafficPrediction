@@ -1,0 +1,1179 @@
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [96.10(102.98)/35.70(16.62)/80.08(80.08)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [122.69(102.98)/0.00(76.33)/114.96(102.24)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [123.33(102.98)/0.00(87.55)/119.93(102.77)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [123.55(102.98)/0.00(102.83)/103.22(102.96)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [123.32(102.98)/0.00(88.03)/119.16(102.77)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [123.56(102.98)/102.36(102.97)/102.97(102.97)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [123.56(102.98)/0.00(102.83)/103.33(102.96)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [123.54(102.98)/0.00(101.57)/111.83(102.95)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [123.56(102.99)/102.71(102.97)/102.97(102.97)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [123.56(102.99)/57.13(102.91)/102.96(102.96)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [123.56(102.99)/101.77(102.97)/102.97(102.97)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [123.56(102.99)/0.00(102.78)/104.03(102.97)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.64)/111.47(102.98)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [123.57(102.99)/0.00(102.56)/108.31(102.97)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [123.57(102.99)/0.00(102.56)/109.46(102.98)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [122.97(102.99)/0.00(61.99)/121.23(102.47)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/11.95(102.97)/102.99(102.99)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.50(102.97)/102.99(102.99)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [123.44(102.99)/0.00(94.40)/119.26(102.87)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.79)/111.97(102.99)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [123.56(102.99)/0.00(102.15)/114.66(102.97)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [123.11(102.99)/0.00(72.68)/120.46(102.59)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.79)/111.58(102.98)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [123.57(102.99)/0.00(102.64)/114.60(102.98)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.78)/117.68(102.99)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.71)/119.20(102.98)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [123.59(102.99)/0.00(102.93)/111.24(102.99)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.71)/116.92(102.99)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [123.06(102.99)/0.00(67.74)/121.45(102.55)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [122.24(102.99)/0.00(58.60)/119.00(101.87)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.34)/117.58(102.98)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [123.59(102.99)/0.00(102.97)/115.19(102.99)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [123.57(102.99)/0.00(102.67)/116.73(102.98)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [123.57(102.99)/0.00(102.64)/114.84(102.98)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [122.59(102.99)/0.00(58.60)/119.19(102.16)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.79)/107.89(102.98)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [123.59(102.99)/0.00(102.89)/116.09(102.99)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [123.59(102.99)/62.58(102.99)/102.99(102.99)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.71)/117.89(102.99)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [123.58(102.99)/0.00(102.43)/115.83(102.98)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [123.59(102.99)/0.00(102.97)/114.85(102.99)]
+Total time elapsed: 57.451 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=2.000000,item=0.100000,score=0.006187
+index=2.000000,item=0.010000,score=0.006071
+index=2.000000,item=0.001000,score=0.006066
+index=2.000000,item=0.000100,score=0.006065
+index=2.000000,item=0.000010,score=0.006065
+index=2.000000,item=0.000001,score=0.006065
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [98.34(102.78)/32.44(19.03)/81.95(81.95)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [122.12(102.79)/0.00(67.26)/114.56(101.77)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [123.32(102.79)/0.00(102.30)/105.77(102.77)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [123.33(102.80)/94.00(102.76)/102.77(102.77)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [123.31(102.80)/0.00(101.86)/108.82(102.75)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [123.29(102.80)/0.00(100.17)/113.11(102.74)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [123.33(102.80)/0.00(102.45)/105.50(102.77)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [123.21(102.80)/0.00(94.66)/118.53(102.67)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [123.35(102.80)/0.00(102.63)/105.71(102.79)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [123.33(102.80)/0.00(101.96)/117.71(102.78)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [123.35(102.80)/0.00(102.78)/103.11(102.80)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [123.14(102.80)/0.00(95.23)/118.21(102.62)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [123.36(102.80)/0.00(102.77)/105.85(102.80)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [123.33(102.80)/0.00(102.29)/111.82(102.78)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [123.21(102.80)/0.00(95.64)/119.97(102.68)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [123.32(102.80)/0.00(100.30)/121.22(102.77)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [122.76(102.80)/0.00(63.76)/120.92(102.30)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [123.35(102.80)/0.00(102.29)/118.94(102.79)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [123.24(102.80)/0.00(95.64)/120.74(102.70)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [123.36(102.80)/0.00(102.73)/110.56(102.80)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [123.36(102.80)/0.00(102.77)/107.40(102.80)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [123.34(102.80)/0.00(101.71)/118.97(102.78)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [123.31(102.80)/0.00(100.35)/119.51(102.76)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [123.36(102.80)/0.00(102.77)/105.17(102.80)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [123.18(102.80)/0.00(95.64)/119.94(102.65)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [123.35(102.80)/0.00(102.68)/112.95(102.80)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [123.29(102.80)/0.00(98.59)/119.55(102.74)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [123.35(102.80)/0.00(102.54)/113.63(102.79)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [123.35(102.80)/0.00(102.59)/112.24(102.79)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [123.35(102.80)/0.00(102.62)/113.52(102.79)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [123.35(102.80)/0.00(102.48)/116.48(102.79)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [123.36(102.80)/0.00(102.78)/105.34(102.80)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [123.15(102.80)/0.00(95.64)/119.86(102.62)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [123.27(102.80)/0.00(98.02)/119.35(102.73)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [123.16(102.80)/0.00(95.64)/119.81(102.63)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [123.27(102.80)/0.00(97.28)/121.06(102.73)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [123.36(102.80)/0.00(102.77)/106.75(102.80)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [123.27(102.80)/0.00(96.90)/121.36(102.72)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [123.24(102.80)/0.00(96.16)/119.20(102.70)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [122.34(102.80)/0.00(47.74)/117.71(101.95)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [123.36(102.80)/0.00(102.77)/115.59(102.80)]
+Total time elapsed: 54.487 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=3.000000,item=0.100000,score=0.005769
+index=3.000000,item=0.010000,score=0.005708
+index=3.000000,item=0.001000,score=0.005703
+index=3.000000,item=0.000100,score=0.005703
+index=3.000000,item=0.000010,score=0.005703
+index=3.000000,item=0.000001,score=0.005703
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [95.33(102.53)/36.23(16.64)/79.44(79.44)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [121.32(102.55)/0.00(64.65)/112.51(101.10)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [123.04(102.56)/102.14(102.53)/102.53(102.53)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [122.72(102.56)/0.00(81.43)/119.31(102.27)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [123.01(102.56)/0.00(100.58)/110.96(102.51)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [123.03(102.56)/0.00(102.07)/104.99(102.53)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [123.02(102.56)/0.00(101.99)/106.20(102.52)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [123.02(102.56)/0.00(101.09)/109.44(102.52)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [122.82(102.56)/0.00(88.17)/118.44(102.35)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [123.03(102.56)/0.00(102.08)/104.90(102.53)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [123.04(102.56)/102.28(102.53)/102.53(102.53)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [122.98(102.56)/0.00(98.68)/114.43(102.49)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [123.04(102.56)/50.62(102.46)/102.53(102.53)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [123.04(102.56)/0.00(102.35)/102.78(102.53)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [123.00(102.56)/0.00(101.08)/111.60(102.50)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [123.02(102.56)/0.00(101.64)/106.47(102.52)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [123.02(102.56)/0.00(100.90)/110.01(102.51)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [123.04(102.56)/85.99(102.52)/102.54(102.54)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [122.69(102.56)/0.00(79.45)/119.42(102.24)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [123.04(102.56)/3.56(102.40)/102.53(102.53)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [122.99(102.56)/0.00(100.75)/109.88(102.49)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [122.82(102.57)/0.00(88.11)/117.70(102.35)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [123.00(102.57)/0.00(100.80)/109.54(102.50)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [123.02(102.57)/0.00(101.54)/107.31(102.52)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [122.98(102.57)/0.00(99.44)/110.76(102.48)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [123.04(102.57)/43.39(102.44)/102.53(102.53)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [123.03(102.57)/0.00(101.79)/105.88(102.53)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [123.02(102.57)/0.00(101.76)/105.26(102.52)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [123.03(102.57)/0.00(101.53)/107.04(102.52)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [123.04(102.57)/96.20(102.52)/102.53(102.53)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [123.00(102.57)/0.00(101.30)/108.35(102.50)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [122.99(102.57)/0.00(99.36)/111.76(102.49)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [123.03(102.57)/0.00(101.78)/105.84(102.52)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [123.03(102.57)/0.00(102.06)/105.46(102.53)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [122.98(102.57)/0.00(98.98)/112.47(102.48)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [123.04(102.57)/99.72(102.53)/102.54(102.54)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [123.03(102.57)/0.00(101.78)/105.62(102.52)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [123.04(102.57)/87.66(102.51)/102.53(102.53)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [123.01(102.57)/0.00(100.25)/110.73(102.51)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [123.04(102.57)/74.92(102.49)/102.53(102.53)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [123.02(102.57)/0.00(101.53)/106.42(102.52)]
+Total time elapsed: 57.480 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=4.000000,item=0.100000,score=0.188035
+index=4.000000,item=0.010000,score=0.188035
+index=4.000000,item=0.001000,score=0.188035
+index=4.000000,item=0.000100,score=0.188035
+index=4.000000,item=0.000010,score=0.188035
+index=4.000000,item=0.000001,score=0.188035
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [99.68(102.20)/27.77(19.38)/83.07(83.07)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [114.47(119.34)/46.24(33.68)/95.39(95.39)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [116.20(125.45)/58.20(39.75)/96.84(96.84)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [118.31(125.45)/60.16(46.25)/98.59(98.59)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [116.32(125.45)/48.14(25.16)/96.93(96.93)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [117.23(130.91)/57.99(30.19)/97.69(97.69)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [121.87(130.91)/67.80(52.78)/101.56(101.56)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [116.22(196.36)/83.71(29.34)/96.85(96.85)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [111.06(196.36)/80.36(24.18)/92.55(92.55)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [112.43(196.36)/81.62(27.57)/93.69(93.69)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [111.44(196.36)/81.20(27.85)/92.87(92.87)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [97.70(220.96)/75.04(26.72)/81.42(81.42)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [107.28(220.96)/81.06(28.07)/89.40(89.40)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [99.27(220.96)/75.41(21.62)/82.72(82.72)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [94.15(220.96)/72.52(24.53)/78.46(78.46)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [100.52(220.96)/76.69(25.82)/83.76(83.76)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [99.61(220.96)/76.29(27.18)/83.01(83.01)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [109.81(220.96)/81.46(20.44)/91.51(91.51)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [156.76(220.96)/98.76(20.44)/130.64(130.64)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [213.06(220.96)/77.71(55.51)/177.55(177.55)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [263.12(220.96)/0.00(154.54)/253.18(219.27)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [264.35(220.96)/0.00(168.00)/260.80(220.29)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [259.44(220.96)/0.00(113.44)/246.44(216.20)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [259.58(220.96)/0.00(114.13)/245.01(216.32)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [260.95(220.96)/0.00(113.61)/244.07(217.46)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [256.79(220.96)/0.00(113.44)/238.02(213.99)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [262.10(220.96)/0.00(113.44)/248.38(218.42)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [263.19(220.96)/0.00(113.61)/256.59(219.33)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [261.73(220.96)/0.00(113.84)/251.84(218.11)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [258.10(220.96)/0.00(113.61)/236.36(215.08)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [261.72(220.96)/0.00(113.84)/252.22(218.10)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [261.02(220.96)/0.00(118.62)/245.78(217.52)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [222.37(220.96)/0.00(40.04)/214.79(214.79)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [257.19(220.96)/0.00(111.67)/234.60(214.32)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [257.99(220.96)/0.00(113.84)/236.87(215.00)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [258.42(220.96)/0.00(113.84)/238.82(215.35)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [264.50(220.96)/0.00(215.93)/232.90(220.41)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [256.67(220.96)/0.00(113.44)/237.61(213.90)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [261.94(220.96)/0.00(114.88)/245.62(218.29)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [259.63(220.96)/0.00(124.27)/242.07(216.35)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [264.28(220.96)/0.00(188.06)/251.07(220.23)]
+Total time elapsed: 57.104 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=5.000000,item=0.100000,score=0.005628
+index=5.000000,item=0.010000,score=0.005553
+index=5.000000,item=0.001000,score=0.005551
+index=5.000000,item=0.000100,score=0.005550
+index=5.000000,item=0.000010,score=0.005550
+index=5.000000,item=0.000001,score=0.005550
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [92.22(108.90)/49.66(20.14)/76.85(76.85)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [103.39(115.17)/48.34(22.48)/86.16(86.16)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [116.33(115.17)/21.39(25.91)/96.94(96.94)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [121.12(118.00)/50.62(58.39)/100.93(100.93)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [117.25(122.21)/53.26(41.97)/97.71(97.71)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [114.22(122.21)/43.31(21.54)/95.18(95.18)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [118.40(131.88)/65.77(43.29)/98.67(98.67)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [113.77(155.22)/77.09(38.37)/94.80(94.80)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [106.27(156.49)/72.56(27.21)/88.56(88.56)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [105.63(224.22)/79.49(21.98)/88.03(88.03)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [99.88(224.22)/77.02(30.58)/83.23(83.23)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [92.27(224.22)/71.20(22.40)/76.89(76.89)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [98.96(224.22)/76.15(28.18)/82.46(82.46)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [101.95(224.22)/77.73(25.69)/84.96(84.96)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [103.21(243.85)/79.49(26.20)/86.01(86.01)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [96.55(264.48)/75.96(29.02)/80.46(80.46)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [106.46(264.48)/82.09(23.08)/88.72(88.72)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [125.15(264.48)/93.81(23.77)/104.29(104.29)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [238.19(264.48)/99.62(34.14)/198.49(198.49)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [283.02(264.48)/76.09(138.89)/235.85(235.85)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [284.93(264.48)/64.37(138.89)/237.44(237.44)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [289.32(264.48)/117.97(181.39)/241.10(241.10)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [305.14(264.48)/0.00(166.80)/257.86(254.28)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [311.79(264.48)/0.00(159.55)/288.78(259.82)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [311.60(264.48)/0.00(152.97)/287.56(259.66)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [313.53(264.48)/0.00(159.55)/295.54(261.28)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [316.80(264.48)/0.00(226.49)/312.84(264.00)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [308.44(264.48)/0.00(159.21)/281.48(257.04)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [314.05(264.48)/0.00(163.56)/298.51(261.71)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [311.83(264.48)/0.00(160.88)/293.03(259.86)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [308.39(264.48)/0.00(159.27)/278.23(256.99)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [313.71(264.48)/0.00(159.74)/301.94(261.42)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [308.76(264.48)/0.00(159.27)/282.61(257.30)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [314.37(264.48)/0.00(159.55)/298.66(261.98)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [313.30(264.48)/0.00(128.80)/301.55(261.09)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [303.05(264.48)/0.00(159.27)/264.97(252.54)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [313.73(264.48)/0.00(177.00)/286.28(261.44)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [314.67(264.48)/0.00(212.67)/295.00(262.23)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [308.59(264.48)/0.00(159.21)/282.70(257.16)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [313.79(264.48)/0.00(174.16)/288.41(261.49)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [312.65(264.48)/0.00(159.74)/295.44(260.54)]
+Total time elapsed: 58.316 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=6.000000,item=0.100000,score=0.188780
+index=6.000000,item=0.010000,score=0.188780
+index=6.000000,item=0.001000,score=0.188780
+index=6.000000,item=0.000100,score=0.188780
+index=6.000000,item=0.000010,score=0.188780
+index=6.000000,item=0.000001,score=0.188780
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [96.07(101.63)/34.92(19.25)/80.06(80.06)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [121.38(101.65)/0.00(80.65)/114.11(101.15)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [121.89(101.65)/0.00(99.68)/110.03(101.58)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [121.95(101.65)/0.00(101.41)/102.17(101.62)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [121.93(101.67)/0.00(100.07)/106.91(101.61)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [121.93(101.67)/0.00(101.03)/104.09(101.61)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [121.94(101.68)/0.00(100.93)/103.25(101.62)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [121.80(101.68)/0.00(91.63)/114.57(101.50)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [121.95(101.68)/29.33(101.44)/101.62(101.62)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [121.95(101.68)/87.08(101.59)/101.63(101.63)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [121.94(101.68)/13.30(101.37)/101.62(101.62)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [121.55(101.68)/0.00(75.43)/116.92(101.29)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [121.93(101.68)/0.00(101.12)/102.57(101.61)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [121.93(101.68)/0.00(100.93)/102.94(101.61)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [121.86(101.69)/0.00(99.73)/106.41(101.55)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [121.94(101.69)/0.00(101.19)/101.87(101.62)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [121.88(101.69)/0.00(99.21)/106.28(101.57)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [121.69(101.69)/0.00(90.18)/110.88(101.41)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [121.94(101.69)/46.51(101.42)/101.62(101.62)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [121.94(101.69)/60.42(101.48)/101.62(101.62)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [121.94(101.69)/0.00(101.20)/101.74(101.61)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/73.90(101.53)/101.62(101.62)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/70.93(101.53)/101.63(101.63)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/90.50(101.59)/101.62(101.62)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [121.94(101.69)/0.00(101.22)/101.75(101.62)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [121.75(101.69)/0.00(88.53)/114.52(101.46)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/101.30(101.63)/101.63(101.63)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [121.92(101.69)/0.00(100.25)/104.17(101.60)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [121.94(101.69)/0.00(100.72)/103.30(101.61)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/15.29(101.33)/101.62(101.62)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/91.50(101.59)/101.63(101.63)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/4.57(101.29)/101.62(101.62)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/63.23(101.50)/101.62(101.62)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/93.71(101.60)/101.63(101.63)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/96.45(101.61)/101.63(101.63)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/101.34(101.63)/101.63(101.63)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/73.01(101.53)/101.62(101.62)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/91.59(101.59)/101.63(101.63)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [121.89(101.69)/0.00(98.96)/106.34(101.57)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [121.94(101.69)/56.29(101.46)/101.62(101.62)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [121.95(101.69)/85.46(101.57)/101.63(101.63)]
+Total time elapsed: 56.486 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=7.000000,item=0.100000,score=0.005638
+index=7.000000,item=0.010000,score=0.005561
+index=7.000000,item=0.001000,score=0.005556
+index=7.000000,item=0.000100,score=0.005555
+index=7.000000,item=0.000010,score=0.005555
+index=7.000000,item=0.000001,score=0.005555
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [91.96(101.32)/41.13(19.45)/76.63(76.63)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [112.61(172.01)/75.91(19.14)/93.84(93.84)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [113.75(202.98)/82.48(24.57)/94.79(94.79)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [109.08(236.14)/81.91(19.05)/90.90(90.90)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [113.43(236.14)/85.62(27.78)/94.53(94.53)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [98.35(288.76)/77.61(27.14)/81.96(81.96)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [147.14(314.39)/110.69(29.40)/122.61(122.61)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [265.88(333.71)/161.77(70.24)/221.57(221.57)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [312.90(345.34)/132.64(52.95)/260.75(260.75)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [354.14(345.34)/0.00(36.51)/285.37(285.37)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [368.31(345.34)/134.36(198.92)/306.92(306.92)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [393.80(345.34)/0.00(226.69)/329.75(328.17)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [401.30(345.34)/0.00(174.46)/346.30(334.42)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [402.35(345.34)/0.00(238.40)/355.38(335.29)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [402.63(345.34)/0.00(243.22)/352.19(335.52)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [405.96(345.34)/0.00(221.93)/365.89(338.30)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [406.20(345.34)/0.00(245.28)/361.33(338.50)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [407.77(345.34)/0.00(244.45)/367.21(339.81)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [404.39(345.34)/0.00(244.88)/353.65(336.99)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [409.31(345.34)/0.00(244.02)/379.43(341.10)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [411.18(345.34)/0.00(244.45)/391.11(342.65)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [408.73(345.34)/0.00(244.45)/376.28(340.61)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [409.89(345.34)/0.00(257.48)/385.64(341.57)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [405.54(345.34)/0.00(247.78)/363.27(337.95)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [405.69(345.34)/0.00(232.69)/367.30(338.08)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [408.89(345.34)/0.00(245.46)/384.00(340.74)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [406.48(345.34)/0.00(244.45)/364.68(338.73)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [408.46(345.34)/0.00(245.95)/370.88(340.38)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [407.56(345.34)/0.00(241.01)/379.08(339.63)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [402.50(345.34)/0.00(244.24)/355.71(335.42)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [410.07(345.34)/0.00(247.78)/383.26(341.72)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [405.29(345.34)/0.00(244.87)/367.56(337.74)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [399.17(345.34)/0.00(245.49)/343.26(332.64)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [408.73(345.34)/0.00(244.87)/372.76(340.61)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [402.09(345.34)/0.00(227.37)/355.25(335.08)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [406.71(345.34)/0.00(245.49)/371.33(338.92)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [408.51(345.34)/0.00(245.49)/387.28(340.42)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [410.00(345.34)/0.00(262.02)/384.38(341.67)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [410.12(345.34)/0.00(245.28)/378.57(341.77)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [408.80(345.34)/0.00(245.95)/362.69(340.66)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [406.61(345.34)/0.00(244.45)/369.04(338.84)]
+Total time elapsed: 54.385 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=8.000000,item=0.100000,score=0.005740
+index=8.000000,item=0.010000,score=0.005558
+index=8.000000,item=0.001000,score=0.005549
+index=8.000000,item=0.000100,score=0.005549
+index=8.000000,item=0.000010,score=0.005549
+index=8.000000,item=0.000001,score=0.005549
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [94.07(128.83)/60.09(19.52)/78.40(78.40)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [99.65(180.77)/73.02(24.07)/83.04(83.04)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [107.79(180.77)/76.95(24.63)/89.82(89.82)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [104.09(187.69)/75.96(24.00)/86.74(86.74)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [115.10(187.69)/83.40(36.02)/95.92(95.92)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [116.40(187.69)/81.65(25.26)/97.00(97.00)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [114.14(187.69)/81.07(26.74)/95.12(95.12)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [110.68(187.69)/80.06(29.25)/92.23(92.23)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [95.76(213.24)/73.41(26.40)/79.80(79.80)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [100.48(266.81)/78.90(30.94)/83.73(83.73)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [109.78(294.49)/85.39(23.81)/91.49(91.49)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [96.95(294.49)/76.34(21.88)/80.79(80.79)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [150.98(340.29)/114.64(30.55)/125.82(125.82)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [139.95(342.07)/107.25(25.98)/116.63(116.63)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [156.01(354.45)/118.32(29.07)/130.01(130.01)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [203.73(369.54)/145.47(26.81)/169.77(169.77)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [309.25(382.88)/185.13(81.44)/257.71(257.71)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [386.84(382.88)/155.89(166.11)/322.37(322.37)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [412.74(382.88)/79.24(194.15)/343.95(343.95)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [412.83(382.88)/131.21(223.83)/344.02(344.02)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [414.36(382.88)/62.90(191.61)/345.30(345.30)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [446.13(382.88)/0.00(254.25)/382.25(371.77)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [453.29(382.88)/0.00(287.26)/410.99(377.74)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [453.16(382.88)/0.00(286.26)/413.37(377.63)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [451.25(382.88)/0.00(277.96)/403.63(376.04)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [454.29(382.88)/0.00(286.77)/418.60(378.57)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [455.04(382.88)/0.00(278.48)/419.77(379.20)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [448.37(382.88)/0.00(236.09)/399.35(373.64)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [451.46(382.88)/0.00(285.06)/401.44(376.22)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [442.71(382.88)/0.00(242.77)/374.52(368.92)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [454.29(382.88)/0.00(285.06)/425.79(378.57)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [450.53(382.88)/0.00(284.74)/407.21(375.44)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [448.73(382.88)/0.00(285.38)/394.63(373.95)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [451.19(382.88)/0.00(285.38)/396.15(376.00)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [450.99(382.88)/0.00(285.74)/409.09(375.82)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [446.20(382.88)/0.00(260.28)/393.26(371.83)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [454.82(382.88)/0.00(312.43)/399.80(379.01)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [452.91(382.88)/0.00(279.42)/423.59(377.43)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [449.42(382.88)/0.00(279.75)/396.58(374.52)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [452.53(382.88)/0.00(285.38)/412.93(377.11)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [454.64(382.88)/0.00(284.31)/423.03(378.86)]
+Total time elapsed: 54.992 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=9.000000,item=0.100000,score=0.005751
+index=9.000000,item=0.010000,score=0.005603
+index=9.000000,item=0.001000,score=0.005597
+index=9.000000,item=0.000100,score=0.005596
+index=9.000000,item=0.000010,score=0.005596
+index=9.000000,item=0.000001,score=0.005596
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [98.13(100.98)/28.47(19.21)/81.78(81.78)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [101.70(100.98)/0.00(29.43)/99.25(99.25)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [121.02(100.98)/0.00(96.23)/113.33(100.85)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [121.17(100.98)/0.00(100.95)/118.14(100.98)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [120.96(100.98)/0.00(88.06)/117.77(100.80)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [121.17(100.98)/0.00(100.76)/116.62(100.97)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [121.00(100.98)/121.00(100.98)/121.00(100.98)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [121.00(100.98)/121.00(100.98)/121.00(100.98)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [121.17(100.98)/100.72(100.98)/100.98(100.98)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [121.17(100.99)/25.17(100.91)/100.97(100.97)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [121.16(100.99)/0.00(100.22)/107.00(100.97)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [121.17(100.99)/64.05(100.94)/100.98(100.98)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [121.17(100.99)/0.00(100.78)/102.27(100.97)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [121.16(100.99)/0.00(100.50)/104.69(100.97)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [121.17(100.99)/28.80(100.91)/100.97(100.97)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [121.17(100.99)/0.00(100.64)/103.86(100.97)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [121.16(100.99)/0.00(100.76)/102.48(100.97)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [121.17(100.99)/0.00(100.83)/101.31(100.97)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [121.17(100.99)/0.00(100.85)/101.18(100.97)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/37.06(100.87)/100.97(100.97)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/13.49(100.85)/100.97(100.97)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/100.72(100.98)/100.98(100.98)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/27.68(100.86)/100.97(100.97)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [121.16(101.00)/0.00(100.26)/104.36(100.97)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/0.00(100.66)/102.16(100.97)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [121.10(101.00)/0.00(96.73)/111.52(100.92)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/75.21(100.94)/100.98(100.98)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [121.16(101.00)/0.00(100.31)/103.98(100.97)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/89.58(100.96)/100.98(100.98)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/89.58(100.96)/100.98(100.98)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/73.76(100.94)/100.98(100.98)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/0.00(100.63)/102.24(100.97)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [121.16(101.00)/0.00(100.76)/101.28(100.97)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [121.16(101.00)/0.00(100.50)/103.29(100.96)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [121.06(101.00)/0.00(94.90)/112.39(100.89)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/61.50(100.92)/100.98(100.98)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/88.99(100.96)/100.98(100.98)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [121.15(101.00)/0.00(99.64)/106.65(100.96)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/75.78(100.94)/100.97(100.97)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [121.16(101.00)/0.00(100.70)/101.57(100.97)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [121.17(101.00)/26.98(100.86)/100.97(100.97)]
+Total time elapsed: 55.753 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=10.000000,item=0.100000,score=0.005457
+index=10.000000,item=0.010000,score=0.005389
+index=10.000000,item=0.001000,score=0.005385
+index=10.000000,item=0.000100,score=0.005385
+index=10.000000,item=0.000010,score=0.005385
+index=10.000000,item=0.000001,score=0.005385
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [97.35(100.70)/32.50(22.44)/81.12(81.12)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [103.28(168.82)/74.80(31.88)/86.07(86.07)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [95.31(282.92)/75.11(24.18)/79.43(79.43)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [115.53(296.93)/89.36(24.18)/96.28(96.28)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [110.67(323.40)/86.98(26.50)/92.22(92.22)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [121.71(335.99)/94.75(24.22)/101.42(101.42)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [139.27(413.59)/108.99(25.51)/116.06(116.06)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [192.77(413.59)/143.20(23.27)/160.64(160.64)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [311.20(434.06)/201.63(64.97)/259.33(259.33)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [333.02(448.71)/207.15(60.49)/277.52(277.52)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [401.82(452.92)/230.82(151.46)/334.85(334.85)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [461.92(452.92)/234.98(252.53)/384.94(384.94)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [489.52(452.92)/206.93(297.11)/407.93(407.93)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [514.82(452.92)/111.24(340.51)/429.02(429.02)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [532.53(452.92)/0.00(360.84)/461.42(443.78)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [537.47(452.92)/0.00(360.48)/469.01(447.89)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [537.62(452.92)/0.00(359.67)/482.50(448.02)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [530.97(452.92)/0.00(350.23)/463.52(442.47)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [527.04(452.92)/0.00(312.61)/450.92(439.20)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [530.21(452.92)/0.00(358.05)/458.01(441.84)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [530.42(452.92)/0.00(268.46)/468.28(442.02)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [537.53(452.92)/0.00(359.37)/493.56(447.94)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [533.78(452.92)/0.00(271.74)/481.58(444.82)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [527.50(452.92)/0.00(359.01)/446.15(439.58)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [530.91(452.92)/0.00(330.90)/461.02(442.43)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [537.84(452.92)/0.00(361.72)/491.46(448.20)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [533.89(452.92)/0.00(358.38)/471.85(444.91)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [534.20(452.92)/0.00(352.79)/475.87(445.16)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [535.84(452.92)/0.00(359.01)/483.57(446.53)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [535.62(452.92)/0.00(355.77)/483.89(446.35)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [530.98(452.92)/0.00(269.13)/477.52(442.49)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [532.42(452.92)/0.00(324.65)/469.16(443.68)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [537.13(452.92)/0.00(358.38)/490.38(447.61)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [533.56(452.92)/0.00(351.06)/473.52(444.64)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [532.25(452.92)/0.00(357.51)/472.35(443.54)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [529.52(452.92)/0.00(314.55)/458.91(441.27)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [531.32(452.92)/0.00(359.69)/460.34(442.76)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [531.30(452.92)/0.00(269.16)/470.36(442.75)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [533.85(452.92)/0.00(358.38)/471.78(444.87)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [534.33(452.92)/0.00(316.69)/467.50(445.28)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [535.49(452.92)/0.00(348.25)/475.86(446.24)]
+Total time elapsed: 53.937 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=11.000000,item=0.100000,score=0.005446
+index=11.000000,item=0.010000,score=0.005265
+index=11.000000,item=0.001000,score=0.005260
+index=11.000000,item=0.000100,score=0.005260
+index=11.000000,item=0.000010,score=0.005260
+index=11.000000,item=0.000001,score=0.005260
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [89.70(215.72)/69.17(22.15)/74.75(74.75)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [98.53(234.71)/76.07(25.98)/82.11(82.11)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [97.92(265.89)/76.33(22.17)/81.60(81.60)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [102.82(314.92)/81.42(28.60)/85.69(85.69)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [120.04(352.98)/94.02(23.97)/100.04(100.04)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [150.85(424.43)/117.57(28.99)/125.71(125.71)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [180.53(467.91)/139.37(33.62)/150.44(150.44)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [238.74(467.91)/174.84(35.99)/198.95(198.95)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [340.12(469.88)/221.17(78.65)/283.43(283.43)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [464.24(483.65)/299.51(277.61)/386.87(386.87)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [498.05(483.65)/210.01(245.57)/415.04(415.04)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [516.53(485.61)/74.96(202.62)/430.44(430.44)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [546.67(485.83)/225.64(379.16)/455.56(455.56)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [551.92(485.83)/0.00(294.14)/461.55(459.94)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [564.29(485.83)/0.00(391.00)/470.41(470.24)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [567.92(485.83)/0.00(333.09)/483.98(473.26)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [571.41(485.83)/0.00(392.96)/503.35(476.18)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [568.12(485.83)/0.00(393.70)/482.02(473.43)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [570.89(485.83)/0.00(391.29)/488.09(475.74)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [571.23(485.83)/0.00(379.84)/489.84(476.02)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [573.01(485.83)/0.00(392.56)/505.25(477.51)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [574.87(485.83)/0.00(394.52)/507.49(479.06)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [571.89(485.83)/0.00(318.96)/508.15(476.57)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [570.30(485.83)/0.00(393.57)/490.29(475.25)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [577.13(485.83)/0.00(427.88)/501.41(480.94)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [566.30(485.83)/0.00(381.70)/477.19(471.92)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [575.45(485.83)/0.00(393.99)/502.67(479.54)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [572.35(485.83)/0.00(378.44)/503.47(476.96)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [577.79(485.83)/0.00(304.51)/542.66(481.49)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [573.17(485.83)/0.00(353.33)/502.55(477.64)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [569.93(485.83)/0.00(388.35)/495.67(474.94)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [575.09(485.83)/0.00(395.15)/511.29(479.24)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [570.55(485.83)/0.00(391.40)/490.23(475.46)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [569.21(485.83)/0.00(378.07)/481.28(474.35)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [570.88(485.83)/0.00(393.92)/492.27(475.73)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [574.37(485.83)/0.00(391.80)/505.15(478.64)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [567.35(485.83)/0.00(243.83)/493.75(472.79)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [556.56(485.83)/0.00(335.91)/464.73(463.80)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [576.12(485.83)/0.00(394.22)/520.38(480.10)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [570.96(485.83)/0.00(393.56)/493.25(475.80)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [572.79(485.83)/0.00(395.85)/504.14(477.33)]
+Total time elapsed: 54.113 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=12.000000,item=0.100000,score=0.005861
+index=12.000000,item=0.010000,score=0.005739
+index=12.000000,item=0.001000,score=0.005734
+index=12.000000,item=0.000100,score=0.005733
+index=12.000000,item=0.000010,score=0.005733
+index=12.000000,item=0.000001,score=0.005733
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [104.63(186.57)/75.21(18.95)/87.19(87.19)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [108.52(212.35)/81.69(31.52)/90.43(90.43)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [98.09(213.43)/74.73(25.32)/81.74(81.74)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [101.87(262.73)/79.38(27.10)/84.90(84.90)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [98.84(376.60)/79.26(26.88)/82.36(82.36)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [110.09(376.60)/87.87(31.66)/91.74(91.74)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [118.33(388.71)/93.88(28.95)/98.61(98.61)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [173.81(445.03)/133.16(23.79)/144.84(144.84)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [186.72(445.03)/142.25(31.38)/155.60(155.60)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [271.00(489.14)/192.10(29.20)/225.84(225.84)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [378.76(507.36)/235.51(72.28)/315.63(315.63)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [411.15(517.22)/234.32(66.67)/342.63(342.63)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [481.91(517.22)/279.79(226.24)/401.59(401.59)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [546.01(517.22)/138.04(238.30)/455.01(455.01)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [576.15(517.22)/122.70(342.04)/480.13(480.13)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [577.04(517.22)/64.66(323.54)/480.87(480.87)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [601.54(517.22)/0.00(343.07)/509.37(501.29)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [603.49(517.22)/0.00(417.89)/506.77(502.91)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [601.26(517.22)/0.00(415.11)/501.77(501.05)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [607.08(517.22)/0.00(417.00)/512.15(505.90)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [605.63(517.22)/0.00(430.31)/508.21(504.69)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [602.37(517.22)/0.00(415.94)/503.52(501.97)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [608.39(517.22)/0.00(423.87)/517.66(506.99)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [607.85(517.22)/0.00(427.74)/523.67(506.54)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [608.30(517.22)/0.00(427.74)/519.25(506.92)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [609.09(517.22)/0.00(348.14)/534.90(507.57)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [606.77(517.22)/0.00(369.01)/526.71(505.64)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [608.33(517.22)/0.00(422.99)/532.43(506.94)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [602.47(517.22)/0.00(417.40)/502.88(502.06)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [606.22(517.22)/0.00(339.43)/528.39(505.18)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [606.33(517.22)/0.00(320.01)/527.87(505.27)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [613.89(517.22)/0.00(361.47)/545.24(511.58)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [610.97(517.22)/0.00(427.74)/533.89(509.14)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [605.62(517.22)/0.00(426.48)/510.94(504.69)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [611.86(517.22)/0.00(408.76)/542.68(509.88)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [602.05(517.22)/0.00(342.89)/511.57(501.71)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [606.80(517.22)/0.00(407.06)/521.44(505.66)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [611.80(517.22)/0.00(426.48)/535.05(509.84)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [605.20(517.22)/0.00(320.30)/521.23(504.33)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [608.55(517.22)/0.00(397.36)/527.68(507.13)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [612.63(517.22)/0.00(363.46)/556.99(510.52)]
+Total time elapsed: 55.863 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=13.000000,item=0.100000,score=0.005589
+index=13.000000,item=0.010000,score=0.005484
+index=13.000000,item=0.001000,score=0.005476
+index=13.000000,item=0.000100,score=0.005476
+index=13.000000,item=0.000010,score=0.005475
+index=13.000000,item=0.000001,score=0.005475
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [90.79(100.23)/42.85(22.39)/75.66(75.66)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [102.43(160.04)/71.94(26.64)/85.36(85.36)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [107.40(173.83)/76.53(28.38)/89.50(89.50)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [108.85(180.19)/77.35(24.82)/90.71(90.71)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [100.23(229.76)/76.73(24.00)/83.53(83.53)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [112.37(300.56)/87.78(28.92)/93.64(93.64)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [123.10(310.11)/95.01(25.96)/102.58(102.58)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [171.75(428.10)/132.06(32.97)/143.13(143.13)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [242.99(525.58)/181.17(32.43)/202.49(202.49)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [350.77(525.58)/232.60(54.04)/292.31(292.31)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [421.56(547.38)/275.10(138.65)/351.30(351.30)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [489.17(547.38)/253.58(143.59)/407.65(407.65)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [554.55(547.38)/138.97(164.03)/462.12(462.12)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [581.31(547.38)/171.67(281.18)/484.42(484.42)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [608.55(547.38)/0.00(291.31)/507.58(507.12)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [625.00(547.38)/2.15(388.66)/520.84(520.84)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [634.21(547.38)/0.00(355.65)/535.93(528.51)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [634.58(547.38)/0.00(423.32)/529.93(528.82)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [642.85(547.38)/0.00(459.02)/544.71(535.71)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [644.50(547.38)/0.00(456.18)/551.24(537.08)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [636.26(547.38)/0.00(432.67)/531.46(530.22)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [623.99(547.38)/0.00(376.34)/520.32(519.99)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [644.50(547.38)/0.00(460.13)/544.98(537.08)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [644.67(547.38)/0.00(446.32)/554.34(537.22)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [648.30(547.38)/0.00(463.42)/552.94(540.25)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [638.68(547.38)/0.00(442.43)/534.18(532.24)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [645.18(547.38)/0.00(456.74)/551.54(537.65)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [639.60(547.38)/0.00(384.28)/540.77(533.00)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [643.17(547.38)/0.00(448.48)/551.96(535.98)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [644.74(547.38)/0.00(450.88)/559.49(537.28)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [645.69(547.38)/0.00(458.61)/553.60(538.08)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [649.79(547.38)/0.00(442.36)/578.30(541.49)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [646.71(547.38)/0.00(453.01)/567.70(538.92)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [644.47(547.38)/0.00(443.30)/558.60(537.06)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [647.04(547.38)/0.00(374.59)/585.36(539.20)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [649.86(547.38)/0.00(458.27)/588.01(541.55)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [636.48(547.38)/0.00(412.24)/533.49(530.40)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [640.00(547.38)/0.00(426.85)/540.21(533.34)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [641.35(547.38)/0.00(376.52)/554.60(534.46)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [637.58(547.38)/0.00(385.83)/536.70(531.31)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [644.74(547.38)/0.00(461.55)/550.88(537.28)]
+Total time elapsed: 53.586 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=14.000000,item=0.100000,score=0.005459
+index=14.000000,item=0.010000,score=0.005268
+index=14.000000,item=0.001000,score=0.005261
+index=14.000000,item=0.000100,score=0.005261
+index=14.000000,item=0.000010,score=0.005261
+index=14.000000,item=0.000001,score=0.005261
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [96.45(153.49)/68.56(26.63)/80.38(80.38)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [104.77(227.86)/79.53(24.73)/87.31(87.31)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [107.11(241.60)/81.90(26.45)/89.26(89.26)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [142.10(329.01)/108.50(30.23)/118.42(118.42)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [174.32(426.36)/133.11(27.64)/145.27(145.27)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [212.02(500.64)/160.50(28.33)/176.68(176.68)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [340.55(522.80)/228.03(48.99)/283.79(283.79)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [416.95(558.60)/282.07(148.77)/347.46(347.46)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [516.45(571.87)/337.43(277.58)/430.37(430.37)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [528.66(572.51)/335.69(283.50)/440.55(440.55)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [585.47(576.57)/306.18(322.75)/487.89(487.89)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [608.35(576.57)/315.43(375.45)/506.96(506.96)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [630.29(576.57)/240.35(386.04)/525.25(525.25)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [656.11(576.57)/27.25(405.12)/546.76(546.76)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [660.13(576.57)/70.02(434.61)/550.11(550.11)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [661.86(576.57)/0.00(403.87)/552.79(551.55)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [664.57(576.57)/0.00(432.47)/554.27(553.81)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [677.07(576.57)/0.00(477.13)/569.89(564.22)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [669.80(576.57)/0.00(452.04)/559.23(558.17)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [666.84(576.57)/0.00(415.53)/558.09(555.70)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [683.93(576.57)/0.00(467.14)/595.15(569.95)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [676.88(576.57)/0.00(489.57)/572.41(564.07)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [679.19(576.57)/0.00(486.00)/586.13(565.99)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [683.35(576.57)/0.00(477.90)/609.18(569.46)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [682.31(576.57)/0.00(471.88)/593.99(568.59)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [680.78(576.57)/0.00(450.37)/600.37(567.32)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [674.45(576.57)/0.00(372.25)/573.43(562.04)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [678.30(576.57)/0.00(491.31)/571.77(565.25)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [677.35(576.57)/0.00(488.16)/573.20(564.46)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [674.18(576.57)/0.00(444.77)/568.16(561.81)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [675.13(576.57)/0.00(406.39)/571.76(562.61)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [674.57(576.57)/0.00(447.30)/572.05(562.14)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [677.33(576.57)/0.00(490.33)/572.73(564.44)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [675.62(576.57)/0.00(417.03)/580.32(563.02)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [674.04(576.57)/0.00(383.96)/571.47(561.70)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [671.61(576.57)/0.00(401.01)/567.37(559.67)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [670.65(576.57)/0.00(463.84)/559.68(558.88)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [681.77(576.57)/0.00(487.75)/595.23(568.14)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [679.58(576.57)/0.00(490.33)/578.31(566.32)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [677.63(576.57)/0.00(412.73)/582.96(564.69)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [686.33(576.57)/0.00(483.23)/618.89(571.94)]
+Total time elapsed: 53.759 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=15.000000,item=0.100000,score=0.005578
+index=15.000000,item=0.010000,score=0.005338
+index=15.000000,item=0.001000,score=0.005332
+index=15.000000,item=0.000100,score=0.005331
+index=15.000000,item=0.000010,score=0.005331
+index=15.000000,item=0.000001,score=0.005331
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [92.60(200.90)/69.95(19.33)/77.17(77.17)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [97.89(200.90)/74.16(27.33)/81.58(81.58)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [105.73(284.42)/82.86(29.62)/88.11(88.11)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [107.46(308.00)/84.40(26.76)/89.55(89.55)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [177.74(474.98)/136.79(23.18)/148.12(148.12)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [210.31(484.02)/159.11(33.02)/175.26(175.26)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [361.64(600.98)/251.11(51.56)/301.37(301.37)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [403.65(600.98)/267.03(63.63)/336.38(336.38)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [489.69(600.98)/334.04(233.09)/408.07(408.07)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [576.91(604.45)/278.74(220.88)/480.76(480.76)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [641.65(604.59)/68.69(230.19)/534.71(534.71)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [651.20(604.59)/311.99(411.06)/542.67(542.67)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [662.16(604.59)/200.54(383.79)/551.80(551.80)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [698.57(604.59)/0.00(417.29)/585.56(582.15)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [713.24(604.59)/0.00(507.76)/611.55(594.36)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [702.82(604.59)/0.00(444.38)/592.09(585.69)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [709.31(604.59)/0.00(485.55)/597.87(591.10)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [707.81(604.59)/0.00(470.32)/594.41(589.84)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [705.29(604.59)/0.00(483.38)/589.50(587.74)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [704.74(604.59)/0.00(440.44)/592.41(587.29)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [714.65(604.59)/0.00(451.85)/625.30(595.54)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [707.23(604.59)/0.00(467.92)/594.66(589.36)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [701.84(604.59)/0.00(438.23)/588.42(584.86)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [706.82(604.59)/0.00(438.78)/600.97(589.02)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [713.83(604.59)/0.00(518.91)/616.59(594.86)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [710.75(604.59)/0.00(397.56)/623.24(592.29)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [715.55(604.59)/0.00(515.81)/621.11(596.29)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [712.40(604.59)/0.00(491.96)/615.71(593.67)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [709.41(604.59)/0.00(458.69)/602.34(591.18)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [708.05(604.59)/0.00(496.29)/592.21(590.04)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [706.76(604.59)/0.00(497.56)/593.71(588.97)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [707.87(604.59)/0.00(505.37)/591.41(589.89)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [715.59(604.59)/0.00(522.19)/618.60(596.32)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [711.65(604.59)/0.00(518.62)/600.75(593.04)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [701.17(604.59)/0.00(434.38)/590.90(584.31)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [709.90(604.59)/0.00(492.29)/599.83(591.59)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [712.64(604.59)/0.00(519.05)/610.84(593.86)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [708.03(604.59)/0.00(487.09)/595.17(590.03)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [704.41(604.59)/0.00(425.18)/594.88(587.01)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [710.63(604.59)/0.00(504.17)/603.56(592.19)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [711.87(604.59)/0.00(435.71)/613.46(593.22)]
+Total time elapsed: 53.963 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=16.000000,item=0.100000,score=0.005826
+index=16.000000,item=0.010000,score=0.005687
+index=16.000000,item=0.001000,score=0.005677
+index=16.000000,item=0.000100,score=0.005676
+index=16.000000,item=0.000010,score=0.005676
+index=16.000000,item=0.000001,score=0.005676
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [91.62(127.34)/61.84(27.90)/76.35(76.35)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [106.71(266.75)/83.00(29.70)/88.92(88.92)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [87.92(292.05)/70.28(28.67)/73.26(73.26)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [93.74(340.74)/75.39(32.28)/78.12(78.12)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [105.33(402.54)/84.23(24.27)/87.77(87.77)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [158.92(489.73)/124.89(30.67)/132.44(132.44)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [222.63(491.37)/167.63(38.08)/185.52(185.52)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [359.35(559.34)/241.40(47.51)/299.46(299.46)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [427.41(559.34)/285.64(155.00)/356.17(356.17)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [517.58(601.79)/349.19(269.02)/431.32(431.32)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [571.89(625.84)/339.39(261.74)/476.58(476.58)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [614.27(631.51)/292.64(255.71)/511.89(511.89)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [605.32(631.51)/377.06(343.99)/504.43(504.43)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [691.94(631.51)/264.94(428.27)/576.62(576.62)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [693.78(631.51)/0.00(281.41)/578.96(578.15)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [699.73(631.51)/277.99(456.48)/583.11(583.11)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [732.36(631.51)/181.91(535.87)/610.30(610.30)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [719.93(631.51)/0.00(432.32)/600.40(599.94)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [724.02(631.51)/109.38(488.10)/603.35(603.35)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [743.22(631.51)/0.00(516.81)/632.68(619.35)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [731.12(631.51)/0.00(481.85)/610.48(609.27)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [732.94(631.51)/0.00(492.85)/611.84(610.78)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [727.15(631.51)/0.00(469.43)/606.48(605.96)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [723.74(631.51)/48.00(472.45)/603.12(603.12)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [736.25(631.51)/42.05(529.86)/613.54(613.54)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [731.48(631.51)/0.00(385.06)/617.53(609.56)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [741.52(631.51)/0.00(466.54)/634.93(617.93)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [726.41(631.51)/31.78(481.40)/605.35(605.35)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [688.68(631.51)/240.50(406.56)/573.90(573.90)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [726.56(631.51)/160.20(509.71)/605.47(605.47)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [723.88(631.51)/0.00(435.99)/604.61(603.23)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [730.70(631.51)/0.00(476.11)/610.61(608.92)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [737.50(631.51)/0.00(435.45)/623.90(614.58)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [735.38(631.51)/8.10(520.58)/612.81(612.81)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [735.20(631.51)/173.51(545.16)/612.67(612.67)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [745.39(631.51)/0.00(535.71)/635.45(621.16)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [742.64(631.51)/0.00(534.07)/624.20(618.87)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [742.85(631.51)/0.00(539.45)/625.70(619.04)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [741.95(631.51)/0.00(545.21)/620.53(618.29)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [740.54(631.51)/26.41(548.23)/617.12(617.12)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [737.51(631.51)/0.00(502.15)/617.12(614.59)]
+Total time elapsed: 53.214 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=17.000000,item=0.100000,score=0.005890
+index=17.000000,item=0.010000,score=0.005673
+index=17.000000,item=0.001000,score=0.005667
+index=17.000000,item=0.000100,score=0.005667
+index=17.000000,item=0.000010,score=0.005667
+index=17.000000,item=0.000001,score=0.005667
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [91.58(99.42)/40.61(22.25)/76.31(76.31)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [102.84(191.79)/75.58(23.08)/85.70(85.70)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [113.09(293.99)/88.67(35.17)/94.24(94.24)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [106.91(384.60)/85.54(30.21)/89.09(89.09)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [123.85(384.60)/98.44(38.20)/103.21(103.21)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [173.36(412.89)/131.96(28.29)/144.47(144.47)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [259.28(487.15)/189.82(51.38)/216.07(216.07)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [359.82(507.84)/227.58(49.19)/299.85(299.85)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [464.49(559.83)/286.98(163.71)/387.07(387.07)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [542.31(599.84)/342.69(273.16)/451.93(451.93)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [520.65(641.20)/348.44(229.76)/433.88(433.88)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [660.44(657.46)/334.40(340.23)/550.36(550.36)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [665.68(657.46)/335.20(351.45)/554.73(554.73)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [657.47(657.46)/408.38(408.38)/547.89(547.89)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [669.84(657.46)/341.25(365.31)/558.20(558.20)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [712.55(657.46)/338.51(456.93)/593.79(593.79)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [719.48(657.46)/337.17(472.87)/599.57(599.57)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [735.90(657.46)/215.86(469.98)/613.25(613.25)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [752.35(657.46)/125.51(504.97)/626.96(626.96)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [762.45(657.46)/0.00(480.63)/638.56(635.38)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [754.50(657.46)/42.14(494.82)/628.75(628.75)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [756.67(657.46)/0.00(450.85)/633.21(630.56)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [739.20(657.46)/156.39(461.30)/616.00(616.00)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [748.68(657.46)/110.09(485.68)/623.90(623.90)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [752.32(657.46)/165.47(514.58)/626.94(626.94)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [764.11(657.46)/0.00(496.77)/639.57(636.76)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [769.17(657.46)/0.00(519.08)/644.81(640.98)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [770.64(657.46)/0.00(522.21)/648.65(642.20)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [773.58(657.46)/0.00(572.28)/646.90(644.65)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [774.10(657.46)/0.00(496.51)/660.17(645.08)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [769.46(657.46)/0.00(528.92)/644.28(641.22)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [770.64(657.46)/0.00(562.03)/642.60(642.20)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [757.31(657.46)/0.00(497.66)/631.19(631.09)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [760.97(657.46)/0.00(483.75)/637.60(634.14)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [765.61(657.46)/0.00(493.95)/643.70(638.01)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [725.28(657.46)/280.02(462.01)/604.40(604.40)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [735.55(657.46)/20.18(397.74)/612.96(612.96)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [754.76(657.46)/0.00(434.08)/631.85(628.96)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [757.83(657.46)/0.00(500.33)/631.61(631.52)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [763.45(657.46)/0.00(507.04)/637.93(636.21)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [748.34(657.46)/154.37(496.26)/623.61(623.61)]
+Total time elapsed: 53.064 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=18.000000,item=0.100000,score=0.006538
+index=18.000000,item=0.010000,score=0.005718
+index=18.000000,item=0.001000,score=0.005714
+index=18.000000,item=0.000100,score=0.005714
+index=18.000000,item=0.000010,score=0.005714
+index=18.000000,item=0.000001,score=0.005714
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [97.19(190.73)/72.26(21.84)/81.00(81.00)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [100.40(294.13)/79.31(28.79)/83.67(83.67)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [103.20(342.47)/82.06(27.32)/86.00(86.00)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [161.64(403.88)/124.02(27.97)/134.70(134.70)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [137.52(449.21)/108.83(30.37)/114.60(114.60)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [169.07(463.92)/131.56(33.93)/140.90(140.90)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [262.42(467.97)/187.93(43.37)/218.69(218.69)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [353.79(540.49)/236.88(53.42)/294.83(294.83)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [489.28(631.20)/329.26(192.69)/407.74(407.74)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [535.20(669.37)/353.86(215.28)/446.00(446.00)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [537.12(682.50)/371.05(246.73)/447.60(447.60)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [629.08(682.50)/400.77(337.87)/524.23(524.23)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [667.23(682.50)/311.99(278.48)/556.03(556.03)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [701.35(682.50)/310.54(354.71)/584.46(584.46)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [734.88(682.50)/326.40(448.71)/612.40(612.40)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [731.80(682.50)/302.28(426.58)/609.83(609.83)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [720.05(682.50)/379.06(448.20)/600.04(600.04)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [698.94(682.50)/328.55(364.38)/582.45(582.45)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [728.63(682.50)/344.97(444.58)/607.19(607.19)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [745.55(682.50)/127.24(377.94)/621.29(621.29)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [736.70(682.50)/301.15(439.22)/613.92(613.92)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [753.07(682.50)/350.10(506.12)/627.56(627.56)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [696.81(682.50)/417.76(437.84)/580.67(580.67)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [717.07(682.50)/348.91(420.83)/597.56(597.56)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [743.53(682.50)/182.68(397.86)/619.61(619.61)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [761.99(682.50)/193.71(469.90)/634.99(634.99)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [769.56(682.50)/57.43(453.77)/641.30(641.30)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [747.57(682.50)/40.01(344.47)/622.98(622.98)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [748.26(682.50)/208.68(427.43)/623.55(623.55)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [767.22(682.50)/262.85(512.30)/639.35(639.35)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [757.47(682.50)/299.38(496.45)/631.23(631.23)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [781.15(682.50)/15.94(497.12)/650.96(650.96)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [793.25(682.50)/0.00(491.66)/665.82(661.04)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [755.77(682.50)/0.00(325.10)/631.04(629.81)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [762.17(682.50)/60.14(420.79)/635.14(635.14)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [758.75(682.50)/326.64(510.94)/632.29(632.29)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [738.49(682.50)/317.55(453.05)/615.41(615.41)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [724.17(682.50)/346.08(434.95)/603.48(603.48)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [756.67(682.50)/26.58(381.80)/630.56(630.56)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [781.26(682.50)/4.21(494.80)/651.05(651.05)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [788.89(682.50)/0.00(520.89)/658.40(657.41)]
+Total time elapsed: 53.331 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=19.000000,item=0.100000,score=0.006592
+index=19.000000,item=0.010000,score=0.005425
+index=19.000000,item=0.001000,score=0.005412
+index=19.000000,item=0.000100,score=0.005411
+index=19.000000,item=0.000010,score=0.005411
+index=19.000000,item=0.000001,score=0.005411
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [94.48(130.40)/62.04(23.95)/78.73(78.73)]
+Gen. 10 (2.50%): Max/Min/Avg Fitness(Raw) [109.70(230.83)/84.35(37.55)/91.42(91.42)]
+Gen. 20 (5.00%): Max/Min/Avg Fitness(Raw) [103.46(260.87)/80.12(24.51)/86.21(86.21)]
+Gen. 30 (7.50%): Max/Min/Avg Fitness(Raw) [98.66(284.20)/77.72(27.00)/82.22(82.22)]
+Gen. 40 (10.00%): Max/Min/Avg Fitness(Raw) [145.78(311.44)/109.59(28.48)/121.48(121.48)]
+Gen. 50 (12.50%): Max/Min/Avg Fitness(Raw) [193.38(492.08)/149.00(36.46)/161.15(161.15)]
+Gen. 60 (15.00%): Max/Min/Avg Fitness(Raw) [338.17(559.35)/238.20(67.05)/281.81(281.81)]
+Gen. 70 (17.50%): Max/Min/Avg Fitness(Raw) [417.48(591.59)/292.04(152.25)/347.90(347.90)]
+Gen. 80 (20.00%): Max/Min/Avg Fitness(Raw) [490.93(629.51)/309.06(139.60)/409.11(409.11)]
+Gen. 90 (22.50%): Max/Min/Avg Fitness(Raw) [551.16(674.69)/394.38(307.07)/459.30(459.30)]
+Gen. 100 (25.00%): Max/Min/Avg Fitness(Raw) [661.37(688.39)/420.69(388.71)/551.14(551.14)]
+Gen. 110 (27.50%): Max/Min/Avg Fitness(Raw) [691.89(697.59)/416.41(408.50)/576.58(576.58)]
+Gen. 120 (30.00%): Max/Min/Avg Fitness(Raw) [722.30(704.28)/398.70(429.13)/601.92(601.92)]
+Gen. 130 (32.50%): Max/Min/Avg Fitness(Raw) [735.48(706.57)/372.16(428.94)/612.90(612.90)]
+Gen. 140 (35.00%): Max/Min/Avg Fitness(Raw) [750.52(706.57)/374.80(462.85)/625.43(625.43)]
+Gen. 150 (37.50%): Max/Min/Avg Fitness(Raw) [741.03(706.57)/421.43(476.13)/617.52(617.52)]
+Gen. 160 (40.00%): Max/Min/Avg Fitness(Raw) [768.16(706.57)/222.52(423.39)/640.13(640.13)]
+Gen. 170 (42.50%): Max/Min/Avg Fitness(Raw) [757.10(706.57)/292.34(427.92)/630.92(630.92)]
+Gen. 180 (45.00%): Max/Min/Avg Fitness(Raw) [711.96(706.57)/425.77(433.38)/593.30(593.30)]
+Gen. 190 (47.50%): Max/Min/Avg Fitness(Raw) [726.36(706.57)/359.64(399.79)/605.30(605.30)]
+Gen. 200 (50.00%): Max/Min/Avg Fitness(Raw) [728.34(706.57)/321.21(372.46)/606.95(606.95)]
+Gen. 210 (52.50%): Max/Min/Avg Fitness(Raw) [735.03(706.57)/411.83(458.44)/612.52(612.52)]
+Gen. 220 (55.00%): Max/Min/Avg Fitness(Raw) [736.38(706.57)/369.08(428.47)/613.65(613.65)]
+Gen. 230 (57.50%): Max/Min/Avg Fitness(Raw) [734.73(706.57)/300.18(371.96)/612.28(612.28)]
+Gen. 240 (60.00%): Max/Min/Avg Fitness(Raw) [745.96(706.57)/306.18(406.13)/621.64(621.64)]
+Gen. 250 (62.50%): Max/Min/Avg Fitness(Raw) [754.44(706.57)/316.80(435.52)/628.70(628.70)]
+Gen. 260 (65.00%): Max/Min/Avg Fitness(Raw) [744.45(706.57)/339.53(425.26)/620.38(620.38)]
+Gen. 270 (67.50%): Max/Min/Avg Fitness(Raw) [744.46(706.57)/367.90(444.98)/620.38(620.38)]
+Gen. 280 (70.00%): Max/Min/Avg Fitness(Raw) [724.34(706.57)/402.91(432.44)/603.61(603.61)]
+Gen. 290 (72.50%): Max/Min/Avg Fitness(Raw) [734.91(706.57)/372.47(427.97)/612.42(612.42)]
+Gen. 300 (75.00%): Max/Min/Avg Fitness(Raw) [696.89(706.57)/349.00(329.69)/580.75(580.75)]
+Gen. 310 (77.50%): Max/Min/Avg Fitness(Raw) [677.48(706.57)/396.05(352.63)/564.57(564.57)]
+Gen. 320 (80.00%): Max/Min/Avg Fitness(Raw) [715.84(706.57)/251.37(278.17)/596.53(596.53)]
+Gen. 330 (82.50%): Max/Min/Avg Fitness(Raw) [704.64(706.57)/415.12(412.29)/587.20(587.20)]
+Gen. 340 (85.00%): Max/Min/Avg Fitness(Raw) [720.31(706.57)/420.03(440.65)/600.26(600.26)]
+Gen. 350 (87.50%): Max/Min/Avg Fitness(Raw) [740.33(706.57)/268.67(363.95)/616.94(616.94)]
+Gen. 360 (90.00%): Max/Min/Avg Fitness(Raw) [766.03(706.57)/322.68(469.70)/638.36(638.36)]
+Gen. 370 (92.50%): Max/Min/Avg Fitness(Raw) [782.47(706.57)/363.64(531.50)/652.06(652.06)]
+Gen. 380 (95.00%): Max/Min/Avg Fitness(Raw) [792.26(706.57)/187.89(494.40)/660.22(660.22)]
+Gen. 390 (97.50%): Max/Min/Avg Fitness(Raw) [803.56(706.57)/234.86(549.71)/669.63(669.63)]
+Gen. 400 (100.00%): Max/Min/Avg Fitness(Raw) [789.76(706.57)/320.95(534.04)/658.13(658.13)]
+Total time elapsed: 53.418 seconds.
+Generate X_traing, y_traing
+X_training loading...
+y_training loading...
+X_test...
+y_test...
+Generate X_test and y_test
+X_test...
+Multi Layer Perceptron...
+Neural network initialize
+index=20.000000,item=0.100000,score=0.005797
+index=20.000000,item=0.010000,score=0.005703
+index=20.000000,item=0.001000,score=0.005695
+index=20.000000,item=0.000100,score=0.005694
+index=20.000000,item=0.000010,score=0.005694
+index=20.000000,item=0.000001,score=0.005694
+Saving data...
