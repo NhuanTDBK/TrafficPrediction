@@ -17,11 +17,11 @@ class PyEvolve:
         self.fan_out = 15
         self.theta_shape = (self.n_input,1)
     def activation(self,x):
-    #         return 1.0 / (1 + np.exp(-x))
-            result = np.zeros([x.shape[0]],dtype=np.float64)
-            for index,e in enumerate(x):
-                result[index]=rectify(e)
-            return result
+            return 1.0 / (1 + np.exp(-x))
+#             result = np.zeros([x.shape[0]],dtype=np.float64)
+#             for index,e in enumerate(x):
+#                 result[index]=rectify(e)
+#             return result
     def costFunction(self,X,y,theta):
             m = float(len(X))
             hThetaX = np.array(self.activation(np.dot(X,theta)))
@@ -46,9 +46,14 @@ class PyEvolve:
         # cai dat ham lai ghep
         self.weights.crossover.set(Crossovers.G1DListCrossoverUniform)
         #code genetic
+        # thiet lap he so lai ghep
         self.ga = GSimpleGA.GSimpleGA(self.weights)
         self.ga.selector.set(Selectors.GRouletteWheel)
+        self.ga.setMutationRate(0.01)
+        self.ga.setCrossoverRate(0.9)
+        self.ga.setPopulationSize(225)
         self.ga.setGenerations(400)
+        self.ga.terminationCriteria.set(GSimpleGA.ConvergenceCriteria)
         self.ga.evolve(freq_stats=10)
         return self.score(self.X_data,self.y_data)
     def getParam(self):
