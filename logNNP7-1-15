@@ -7,12 +7,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=2.000000,item=0.100000,score=0.006142
-index=2.000000,item=0.010000,score=0.006038
-index=2.000000,item=0.001000,score=0.006030
-index=2.000000,item=0.000100,score=0.006029
-index=2.000000,item=0.000010,score=0.006029
-index=2.000000,item=0.000001,score=0.006029
+index=2.000000,item=0.100000,score=0.006104
+index=2.000000,item=0.010000,score=0.006050
+index=2.000000,item=0.001000,score=0.006046
+index=2.000000,item=0.000100,score=0.006046
+index=2.000000,item=0.000010,score=0.006046
+index=2.000000,item=0.000001,score=0.006046
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -22,12 +22,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=3.000000,item=0.100000,score=0.187499
-index=3.000000,item=0.010000,score=0.187499
-index=3.000000,item=0.001000,score=0.187499
-index=3.000000,item=0.000100,score=0.187499
-index=3.000000,item=0.000010,score=0.187499
-index=3.000000,item=0.000001,score=0.187499
+index=3.000000,item=0.100000,score=0.187500
+index=3.000000,item=0.010000,score=0.187500
+index=3.000000,item=0.001000,score=0.187500
+index=3.000000,item=0.000100,score=0.187500
+index=3.000000,item=0.000010,score=0.187500
+index=3.000000,item=0.000001,score=0.187500
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -37,12 +37,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=4.000000,item=0.100000,score=0.005435
-index=4.000000,item=0.010000,score=0.005337
-index=4.000000,item=0.001000,score=0.005334
-index=4.000000,item=0.000100,score=0.005334
-index=4.000000,item=0.000010,score=0.005334
-index=4.000000,item=0.000001,score=0.005334
+index=4.000000,item=0.100000,score=0.005648
+index=4.000000,item=0.010000,score=0.005542
+index=4.000000,item=0.001000,score=0.005536
+index=4.000000,item=0.000100,score=0.005535
+index=4.000000,item=0.000010,score=0.005535
+index=4.000000,item=0.000001,score=0.005535
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -52,12 +52,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=5.000000,item=0.100000,score=0.005457
-index=5.000000,item=0.010000,score=0.005401
-index=5.000000,item=0.001000,score=0.005397
-index=5.000000,item=0.000100,score=0.005397
-index=5.000000,item=0.000010,score=0.005397
-index=5.000000,item=0.000001,score=0.005397
+index=5.000000,item=0.100000,score=0.005592
+index=5.000000,item=0.010000,score=0.005513
+index=5.000000,item=0.001000,score=0.005508
+index=5.000000,item=0.000100,score=0.005508
+index=5.000000,item=0.000010,score=0.005508
+index=5.000000,item=0.000001,score=0.005508
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -67,12 +67,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=6.000000,item=0.100000,score=0.188780
-index=6.000000,item=0.010000,score=0.188780
-index=6.000000,item=0.001000,score=0.188780
-index=6.000000,item=0.000100,score=0.188780
-index=6.000000,item=0.000010,score=0.188780
-index=6.000000,item=0.000001,score=0.188780
+index=6.000000,item=0.100000,score=0.188778
+index=6.000000,item=0.010000,score=0.188778
+index=6.000000,item=0.001000,score=0.188778
+index=6.000000,item=0.000100,score=0.188778
+index=6.000000,item=0.000010,score=0.188778
+index=6.000000,item=0.000001,score=0.188778
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -82,12 +82,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=7.000000,item=0.100000,score=0.005763
-index=7.000000,item=0.010000,score=0.005603
-index=7.000000,item=0.001000,score=0.005598
-index=7.000000,item=0.000100,score=0.005598
-index=7.000000,item=0.000010,score=0.005598
-index=7.000000,item=0.000001,score=0.005598
+index=7.000000,item=0.100000,score=0.189211
+index=7.000000,item=0.010000,score=0.189211
+index=7.000000,item=0.001000,score=0.189211
+index=7.000000,item=0.000100,score=0.189211
+index=7.000000,item=0.000010,score=0.189211
+index=7.000000,item=0.000001,score=0.189211
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -97,12 +97,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=8.000000,item=0.100000,score=0.005089
-index=8.000000,item=0.010000,score=0.004990
-index=8.000000,item=0.001000,score=0.004986
-index=8.000000,item=0.000100,score=0.004986
-index=8.000000,item=0.000010,score=0.004986
-index=8.000000,item=0.000001,score=0.004986
+index=8.000000,item=0.100000,score=0.005271
+index=8.000000,item=0.010000,score=0.005158
+index=8.000000,item=0.001000,score=0.005154
+index=8.000000,item=0.000100,score=0.005153
+index=8.000000,item=0.000010,score=0.005153
+index=8.000000,item=0.000001,score=0.005153
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -112,12 +112,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=9.000000,item=0.100000,score=0.005487
-index=9.000000,item=0.010000,score=0.005291
-index=9.000000,item=0.001000,score=0.005280
-index=9.000000,item=0.000100,score=0.005279
-index=9.000000,item=0.000010,score=0.005279
-index=9.000000,item=0.000001,score=0.005279
+index=9.000000,item=0.100000,score=0.005375
+index=9.000000,item=0.010000,score=0.005292
+index=9.000000,item=0.001000,score=0.005288
+index=9.000000,item=0.000100,score=0.005287
+index=9.000000,item=0.000010,score=0.005287
+index=9.000000,item=0.000001,score=0.005287
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -127,12 +127,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=10.000000,item=0.100000,score=0.005643
-index=10.000000,item=0.010000,score=0.005191
-index=10.000000,item=0.001000,score=0.005187
-index=10.000000,item=0.000100,score=0.005187
-index=10.000000,item=0.000010,score=0.005187
-index=10.000000,item=0.000001,score=0.005187
+index=10.000000,item=0.100000,score=0.005729
+index=10.000000,item=0.010000,score=0.005428
+index=10.000000,item=0.001000,score=0.005420
+index=10.000000,item=0.000100,score=0.005419
+index=10.000000,item=0.000010,score=0.005419
+index=10.000000,item=0.000001,score=0.005419
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -142,12 +142,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=11.000000,item=0.100000,score=0.005626
-index=11.000000,item=0.010000,score=0.005449
-index=11.000000,item=0.001000,score=0.005441
-index=11.000000,item=0.000100,score=0.005440
-index=11.000000,item=0.000010,score=0.005440
-index=11.000000,item=0.000001,score=0.005440
+index=11.000000,item=0.100000,score=0.005595
+index=11.000000,item=0.010000,score=0.005321
+index=11.000000,item=0.001000,score=0.005306
+index=11.000000,item=0.000100,score=0.005305
+index=11.000000,item=0.000010,score=0.005305
+index=11.000000,item=0.000001,score=0.005305
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -157,12 +157,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=12.000000,item=0.100000,score=0.005731
-index=12.000000,item=0.010000,score=0.005599
-index=12.000000,item=0.001000,score=0.005591
-index=12.000000,item=0.000100,score=0.005591
-index=12.000000,item=0.000010,score=0.005590
-index=12.000000,item=0.000001,score=0.005590
+index=12.000000,item=0.100000,score=0.005249
+index=12.000000,item=0.010000,score=0.005149
+index=12.000000,item=0.001000,score=0.005146
+index=12.000000,item=0.000100,score=0.005145
+index=12.000000,item=0.000010,score=0.005145
+index=12.000000,item=0.000001,score=0.005145
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -172,12 +172,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=13.000000,item=0.100000,score=0.005819
-index=13.000000,item=0.010000,score=0.005547
-index=13.000000,item=0.001000,score=0.005531
-index=13.000000,item=0.000100,score=0.005530
-index=13.000000,item=0.000010,score=0.005530
-index=13.000000,item=0.000001,score=0.005530
+index=13.000000,item=0.100000,score=0.005569
+index=13.000000,item=0.010000,score=0.005466
+index=13.000000,item=0.001000,score=0.005467
+index=13.000000,item=0.000100,score=0.005466
+index=13.000000,item=0.000010,score=0.005466
+index=13.000000,item=0.000001,score=0.005466
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -187,12 +187,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=14.000000,item=0.100000,score=0.005846
-index=14.000000,item=0.010000,score=0.005717
-index=14.000000,item=0.001000,score=0.005711
-index=14.000000,item=0.000100,score=0.005710
-index=14.000000,item=0.000010,score=0.005710
-index=14.000000,item=0.000001,score=0.005710
+index=14.000000,item=0.100000,score=0.192582
+index=14.000000,item=0.010000,score=0.192582
+index=14.000000,item=0.001000,score=0.192582
+index=14.000000,item=0.000100,score=0.192582
+index=14.000000,item=0.000010,score=0.192582
+index=14.000000,item=0.000001,score=0.192582
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -202,12 +202,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=15.000000,item=0.100000,score=0.005827
-index=15.000000,item=0.010000,score=0.005623
-index=15.000000,item=0.001000,score=0.005617
-index=15.000000,item=0.000100,score=0.005617
-index=15.000000,item=0.000010,score=0.005617
-index=15.000000,item=0.000001,score=0.005617
+index=15.000000,item=0.100000,score=0.005192
+index=15.000000,item=0.010000,score=0.005084
+index=15.000000,item=0.001000,score=0.005078
+index=15.000000,item=0.000100,score=0.005078
+index=15.000000,item=0.000010,score=0.005078
+index=15.000000,item=0.000001,score=0.005078
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -217,12 +217,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=16.000000,item=0.100000,score=0.193734
-index=16.000000,item=0.010000,score=0.193734
-index=16.000000,item=0.001000,score=0.193734
-index=16.000000,item=0.000100,score=0.193734
-index=16.000000,item=0.000010,score=0.193734
-index=16.000000,item=0.000001,score=0.193734
+index=16.000000,item=0.100000,score=0.005472
+index=16.000000,item=0.010000,score=0.005164
+index=16.000000,item=0.001000,score=0.005153
+index=16.000000,item=0.000100,score=0.005152
+index=16.000000,item=0.000010,score=0.005152
+index=16.000000,item=0.000001,score=0.005152
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -232,12 +232,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=17.000000,item=0.100000,score=0.005603
-index=17.000000,item=0.010000,score=0.005432
-index=17.000000,item=0.001000,score=0.005427
-index=17.000000,item=0.000100,score=0.005426
-index=17.000000,item=0.000010,score=0.005426
-index=17.000000,item=0.000001,score=0.005426
+index=17.000000,item=0.100000,score=0.005638
+index=17.000000,item=0.010000,score=0.005345
+index=17.000000,item=0.001000,score=0.005336
+index=17.000000,item=0.000100,score=0.005336
+index=17.000000,item=0.000010,score=0.005336
+index=17.000000,item=0.000001,score=0.005336
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -247,12 +247,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=18.000000,item=0.100000,score=0.194933
-index=18.000000,item=0.010000,score=0.194933
-index=18.000000,item=0.001000,score=0.194933
-index=18.000000,item=0.000100,score=0.194933
-index=18.000000,item=0.000010,score=0.194933
-index=18.000000,item=0.000001,score=0.194933
+index=18.000000,item=0.100000,score=0.005568
+index=18.000000,item=0.010000,score=0.004582
+index=18.000000,item=0.001000,score=0.004576
+index=18.000000,item=0.000100,score=0.004576
+index=18.000000,item=0.000010,score=0.004576
+index=18.000000,item=0.000001,score=0.004576
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -262,12 +262,12 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=19.000000,item=0.100000,score=0.006022
-index=19.000000,item=0.010000,score=0.005841
-index=19.000000,item=0.001000,score=0.005834
-index=19.000000,item=0.000100,score=0.005833
-index=19.000000,item=0.000010,score=0.005833
-index=19.000000,item=0.000001,score=0.005833
+index=19.000000,item=0.100000,score=0.195542
+index=19.000000,item=0.010000,score=0.195542
+index=19.000000,item=0.001000,score=0.195542
+index=19.000000,item=0.000100,score=0.195542
+index=19.000000,item=0.000010,score=0.195542
+index=19.000000,item=0.000001,score=0.195542
 Generate X_traing, y_traing
 X_training loading...
 y_training loading...
@@ -277,10 +277,10 @@ Generate X_test and y_test
 X_test...
 Multi Layer Perceptron...
 Neural network initialize
-index=20.000000,item=0.100000,score=0.005466
-index=20.000000,item=0.010000,score=0.005329
-index=20.000000,item=0.001000,score=0.005320
-index=20.000000,item=0.000100,score=0.005319
-index=20.000000,item=0.000010,score=0.005318
-index=20.000000,item=0.000001,score=0.005318
+index=20.000000,item=0.100000,score=0.196078
+index=20.000000,item=0.010000,score=0.196078
+index=20.000000,item=0.001000,score=0.196078
+index=20.000000,item=0.000100,score=0.196078
+index=20.000000,item=0.000010,score=0.196078
+index=20.000000,item=0.000001,score=0.196078
 Saving data...
