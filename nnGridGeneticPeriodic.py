@@ -62,7 +62,7 @@ class NNGridSearch:
             
             net1.fit(self.X_training,self.y_training)
             self.pred = net1.predict(self.n_sample2)
-            name_file = "GeneticParams/saveNeuralNetwork_%s_%s.tdn" %(item,index)
+            name_file = "GeneticParamsPeriodic/saveNeuralNetwork_%s_%s.tdn" %(item,index)
             net1.save_params_to(name_file)
             score_nn = net1.score(self.n_sample2,self.n_test2)
             list_results[item] = score_nn

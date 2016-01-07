@@ -37,7 +37,7 @@ class NNGridSearch:
     def gridsearch_alpha(self,learning_rate,index,params=None):
         hidden_unit = ((index+1)*2)/3
         self.l_in = ls.layers.InputLayer(shape=(None,n_input),input_var=None)
-        self.l_hidden = ls.layers.DenseLayer(self.l_in,num_units=10,nonlinearity=ls.nonlinearities.rectify)
+        self.l_hidden = ls.layers.DenseLayer(self.l_in,num_units=15,nonlinearity=ls.nonlinearities.rectify)
         self.network = l_out = ls.layers.DenseLayer(self.l_hidden,num_units=1)
         list_results = np.array([learning_rate.shape[0]],dtype=np.float64)
         for item in learning_rate:
