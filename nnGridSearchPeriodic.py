@@ -50,7 +50,7 @@ class NNGridSearch:
                 update_momentum=0.9,
                 regression=True,  # flag to indicate we're dealing with regression problem
                 max_epochs=800,  # we want to train this many epochs
-                verbose=1,
+#                verbose=1,
                 eval_size = 0.4
             )
             #
