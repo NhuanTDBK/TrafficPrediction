@@ -19,7 +19,9 @@ def get_training(n_input,n_periodic=0):
         for i in range(0,n_input):
             temp.append(data.iloc[t-i-1])
         for j in range(1,n_periodic+1):
+            print t
             start_idx = data.index[t]
+            print start_idx
             temp.append(raw_data[start_idx-142*j])
         X_training.append(temp)
     print "y_training loading..."
