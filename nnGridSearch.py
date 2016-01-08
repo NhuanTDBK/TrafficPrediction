@@ -18,6 +18,8 @@ from lasagne.nonlinearities import rectify
 from nolearn.lasagne import NeuralNet
 from nolearn.lasagne import TrainSplit
 from pandas import HDFStore
+from sklearn.metrics import r2_score
+from sklearn.metrics import mean_absolute_error
 #from DemoPyEvolve import PyEvolve
 storeResult=HDFStore("storeResultNN.h5")
 class NNGridSearch:
@@ -39,34 +41,35 @@ class NNGridSearch:
         self.l_in = ls.layers.InputLayer(shape=(None,n_input),input_var=None)
         self.l_hidden = ls.layers.DenseLayer(self.l_in,num_units=15,nonlinearity=ls.nonlinearities.rectify)
         self.network = l_out = ls.layers.DenseLayer(self.l_hidden,num_units=1)
-        list_results = np.array([learning_rate.shape[0]],dtype=np.float64)
-        for item in learning_rate:
+        list_results = np.zeros((1,3),dtype=np.float64)
             #Init Neural net
-            net1 = NeuralNet(
-                layers=self.network,
-                # optimization method:
-                update=nesterov_momentum,
-                update_learning_rate=item,
-                update_momentum=0.9,
-                regression=True,  # flag to indicate we're dealing with regression problem
-                max_epochs=800,  # we want to train this many epochs
+        net1 = NeuralNet(
+            layers=self.network,
+            # optimization method:
+            update=nesterov_momentum,
+            update_learning_rate=item,
+            update_momentum=0.9,
+            regression=True,  # flag to indicate we're dealing with regression problem
+            max_epochs=800,  # we want to train this many epochs
 #                 verbose=1,
-                eval_size = 0.4
-            )
-            #
-            
-            net1.fit(self.X_training,self.y_training)
-            self.pred = net1.predict(self.n_sample2)
-            name_file = "Params/saveNeuralNetwork_%s_%s.tdn" %(item,index)
-            net1.save_params_to(name_file)
-            score_nn = net1.score(self.n_sample2,self.n_test2)
-            list_results[item] = score_nn
-            print "index=%f,item=%f,score=%f"%(index,item,score_nn)
+            eval_size = 0.4
+        )
+        #
+
+        net1.fit(self.X_training,self.y_training)
+        self.pred = net1.predict(self.n_sample2)
+        name_file = "Params/saveNeuralNetwork_%s_%s.tdn" %(item,index)
+        net1.save_params_to(name_file)
+        score_nn = net1.score(self.n_sample2,self.n_test2)
+        list_results[0] = score_nn
+        print "index=%f,item=%f,score=%f"%(index,item,score_nn)
+        list_results[1] = mean_absolute_error(self.pred,self.n_test2)
+        list_results[2] = r2_score(self.pred,self.n_test2)
         return list_results
 
 # In[ ]:
 list_ninput = np.arange(2,21)
-learning_rate = np.array([0.1,0.01,0.001,0.0001,0.00001,0.000001])
+learning_rate = np.array([0.000001])
 list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0] ],dtype=np.float64)
 for i in list_ninput:
     print '.'
