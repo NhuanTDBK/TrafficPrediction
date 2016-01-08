@@ -14,6 +14,8 @@ import matplotlib.pyplot as pl
 import pickle
 import sklearn
 from sklearn.metrics import mean_squared_error
+from sklearn.metrics import r2_score
+from sklearn.metrics import mean_absolute_error
 import theano
 import lasagne as ls
 from theano import tensor as T
@@ -44,35 +46,36 @@ class NNGridSearch:
         self.l_in = ls.layers.InputLayer(shape=(None,n_input),input_var=None,W=params.T)
         self.l_hidden = ls.layers.DenseLayer(self.l_in,num_units=15,nonlinearity=ls.nonlinearities.rectify)
         self.network = l_out = ls.layers.DenseLayer(self.l_hidden,num_units=1)
-        list_results = np.array([learning_rate.shape[0]],dtype=np.float64)
-        for item in learning_rate:
+        list_results = np.zeros((3),dtype=np.float64)
+        item = 0.000001
             #Init Neural net
-            net1 = NeuralNet(
-                layers=self.network,
-                # optimization method:
-                update=nesterov_momentum,
-                update_learning_rate=item,
-                update_momentum=0.9,
-                regression=True,  # flag to indicate we're dealing with regression problem
-                max_epochs=800,  # we want to train this many epochs
+        net1 = NeuralNet(
+            layers=self.network,
+            # optimization method:
+            update=nesterov_momentum,
+            update_learning_rate=item,
+            update_momentum=0.9,
+            regression=True,  # flag to indicate we're dealing with regression problem
+            max_epochs=800,  # we want to train this many epochs
 #                 verbose=1,
-                eval_size = 0.4
-            )
-            #
-            
-            net1.fit(self.X_training,self.y_training)
-            self.pred = net1.predict(self.n_sample2)
-            name_file = "GeneticParamsPeriodic/saveNeuralNetwork_%s_%s.tdn" %(item,index)
-            net1.save_params_to(name_file)
-            score_nn = net1.score(self.n_sample2,self.n_test2)
-            list_results[item] = score_nn
-            print "index=%f,item=%f,score=%f"%(index,item,score_nn)
+            eval_size = 0.4
+        )
+        #
+        net1.fit(self.X_training,self.y_training)
+        self.pred = net1.predict(self.n_sample2)
+        name_file = "GeneticParamsPeriodic/saveNeuralNetwork_%s_%s.tdn" %(item,index)
+        net1.save_params_to(name_file)
+        score_nn = net1.score(self.n_sample2,self.n_test2)
+        list_results[0] = score_nn
+        print "index=%f,item=%f,score=%f"%(index,item,score_nn)
+        list_results[1] = mean_absolute_error(self.pred,self.n_test2)
+        list_results[2] = r2_score(self.n_test2,self.pred)
         return list_results
 
 # In[ ]:
 list_ninput = np.arange(2,21)
-learning_rate = np.array([0.1,0.01,0.001,0.0001,0.00001,0.000001])
-list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0] ],dtype=np.float64)
+learning_rate = np.array([0.000001])
+list_results = np.zeros([list_ninput.shape[0],3],dtype=np.float64)
 for i in list_ninput:
     n_periodic=1
     n_input = i+n_periodic
@@ -83,11 +86,11 @@ for i in list_ninput:
     X_training, y_training,n_sample2,n_test2 = get_training(i,n_periodic)
     result = np.zeros(len(learning_rate),dtype=np.float64)
     test = NNGridSearch(X_training,y_training,n_sample2,n_test2)
-    list_results[2-i] = test.gridsearch_alpha(learning_rate,i,nnParams)
+    list_results[i-2] = test.gridsearch_alpha(learning_rate,i,nnParams)
     
 # In[44]:
 print "Saving data..."
-storeResult["results_gn_periodic"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
+storeResult["results_gn_periodic"]=pd.DataFrame(list_results,index=list_ninput,columns=["RMSE","MAPE","R2"])
 storeResult.close()
 # ax = pl.subplot()
 # ax.set_color_cycle(['blue','red'])

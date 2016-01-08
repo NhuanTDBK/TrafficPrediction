@@ -41,7 +41,8 @@ class NNGridSearch:
         self.l_in = ls.layers.InputLayer(shape=(None,n_input),input_var=None)
         self.l_hidden = ls.layers.DenseLayer(self.l_in,num_units=15,nonlinearity=ls.nonlinearities.rectify)
         self.network = l_out = ls.layers.DenseLayer(self.l_hidden,num_units=1)
-        list_results = np.zeros((1,3),dtype=np.float64)
+        list_results = np.zeros((3),dtype=np.float64)
+        item = 0.000001
             #Init Neural net
         net1 = NeuralNet(
             layers=self.network,
@@ -55,7 +56,6 @@ class NNGridSearch:
             eval_size = 0.4
         )
         #
-
         net1.fit(self.X_training,self.y_training)
         self.pred = net1.predict(self.n_sample2)
         name_file = "Params/saveNeuralNetwork_%s_%s.tdn" %(item,index)
@@ -64,13 +64,13 @@ class NNGridSearch:
         list_results[0] = score_nn
         print "index=%f,item=%f,score=%f"%(index,item,score_nn)
         list_results[1] = mean_absolute_error(self.pred,self.n_test2)
-        list_results[2] = r2_score(self.pred,self.n_test2)
+        list_results[2] = r2_score(self.n_test2,self.pred)
         return list_results
 
 # In[ ]:
 list_ninput = np.arange(2,21)
 learning_rate = np.array([0.000001])
-list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0] ],dtype=np.float64)
+list_results = np.zeros([list_ninput.shape[0],3],dtype=np.float64)
 for i in list_ninput:
     print '.'
     n_input = i
@@ -81,11 +81,11 @@ for i in list_ninput:
     X_training, y_training,n_sample2,n_test2 = get_training(i)
     result = np.zeros(len(learning_rate),dtype=np.float64)
     test = NNGridSearch(X_training,y_training,n_sample2,n_test2)
-    list_results[2-i] = test.gridsearch_alpha(learning_rate,i)
+    list_results[i-2] = test.gridsearch_alpha(learning_rate,i)
     
 # In[44]:
 print "Saving data..."
-storeResult["results_nn"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
+storeResult["results_nn"] = pd.DataFrame(list_results,index=list_ninput,columns=["RMSE","MAPE","R2"])
 storeResult.close()
 # ax = pl.subplot()
 # ax.set_color_cycle(['blue','red'])
