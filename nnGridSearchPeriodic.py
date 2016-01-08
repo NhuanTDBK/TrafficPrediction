@@ -19,7 +19,7 @@ from nolearn.lasagne import NeuralNet
 from nolearn.lasagne import TrainSplit
 from pandas import HDFStore
 #from DemoPyEvolve import PyEvolve
-storeResult=HDFStore("storeResultNN.h5")
+storeResult=HDFStore("storeResultNNP.h5")
 class NNGridSearch:
     def __init__(self,X_training,y_training,n_sample2,n_test2):
         if(X_training.shape[0]!=y_training.shape[0]):
