@@ -82,7 +82,7 @@ for i in list_ninput:
     
 # In[44]:
 print "Saving data..."
-storeResult["results"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
+storeResult["results_nn"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
 storeResult.close()
 # ax = pl.subplot()
 # ax.set_color_cycle(['blue','red'])
