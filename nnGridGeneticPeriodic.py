@@ -62,7 +62,7 @@ class NNGridSearch:
         return list_results
 
 # In[ ]:
-list_ninput = np.arange(2,30)
+list_ninput = np.arange(2,21)
 learning_rate = np.array([0.1,0.01,0.001,0.0001,0.00001,0.000001])
 list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0] ],dtype=np.float64)
 for i in list_ninput:

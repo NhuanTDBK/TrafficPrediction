@@ -72,7 +72,7 @@ def normalize(dataCount):
     return dataNorm
 store = HDFStore("storeTraffic.h5")
 # # In[62]:
-dataTraining = raw_data_conn[142*7:142*10]
+dataTraining = raw_data_conn[142*3:142*7]
 #dataTraining = raw_data_conn[142*40:142*46]
 # print "Loading storage"
 store["connTrain"]=normalize(pd.Series(dataTraining))
