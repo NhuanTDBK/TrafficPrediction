@@ -35,7 +35,7 @@ class NNGridSearch:
         
         print "Neural network initialize"
     def gridsearch_alpha(self,learning_rate,index,params=None):
-        hidden_unit = ((index+1)*2)/3
+        
         self.l_in = ls.layers.InputLayer(shape=(None,n_input),input_var=None,W=params.T)
         self.l_hidden = ls.layers.DenseLayer(self.l_in,num_units=15,nonlinearity=ls.nonlinearities.rectify)
         self.network = l_out = ls.layers.DenseLayer(self.l_hidden,num_units=1)
@@ -64,11 +64,11 @@ class NNGridSearch:
         return list_results
 
 # In[ ]:
-list_ninput = np.arange(11,16)
+list_ninput = np.arange(4,20)
 learning_rate = np.array([0.1,0.01,0.001,0.0001,0.00001,0.000001])
 list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0]],dtype=np.float64)
 for i in list_ninput:
-    for n_periodic in np.arange(1,4):
+    for n_periodic in np.arange(1,6):
 #         n_periodic=1
         n_input = i+n_periodic
         from __init__ import *
