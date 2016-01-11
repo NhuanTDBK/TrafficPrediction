@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from pandas import HDFStore
 store = HDFStore("storeTraffic.h5")
+workload_actual = pd.Series.from_csv("10min_workload.csv",header=None,index_col=None)
 def get_training(n_input,n_periodic=0):
  #   n_row = 578 
  # group du lieu
@@ -14,13 +15,16 @@ def get_training(n_input,n_periodic=0):
 #     X_training = np.asarray([[data.iloc[t-i-1] for i in range(0,n_input)]
 #                  for t in np.arange(n_input,n_row)])
     X_training = []
+    max_val = data.max()
+    min_val = data.min()
     for t in range(n_input,n_row):
         temp = []
         for i in range(0,n_input):
             temp.append(data.iloc[t-i-1])
         for j in range(1,n_periodic+1):
             start_idx = data.index[t]
-            temp.append(raw_data[start_idx-142*j])
+            norVal = (workload_actual[start_idx-142*j]-min_val)/(max_val-min_val)
+            temp.append(norVal)
         X_training.append(temp)
     print "y_training loading..."
     y_training = np.asarray(data.iloc[n_input:n_row])
