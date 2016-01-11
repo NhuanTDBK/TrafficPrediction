@@ -15,8 +15,8 @@ def get_training(n_input,n_periodic=0):
 #     X_training = np.asarray([[data.iloc[t-i-1] for i in range(0,n_input)]
 #                  for t in np.arange(n_input,n_row)])
     X_training = []
-    max_val = data.max()
-    min_val = data.min()
+    max_val = float(data.max())
+    min_val = float(data.min())
     for t in range(n_input,n_row):
         temp = []
         for i in range(0,n_input):
