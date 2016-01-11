@@ -52,8 +52,6 @@ class NNGridSearch:
 #                 verbose=1,
                 eval_size = 0.4
             )
-            #
-            
             net1.fit(self.X_training,self.y_training)
             self.pred = net1.predict(self.n_sample2)
             name_file = "Params/saveNeuralNetwork_%s_%s.tdn" %(item,index)
