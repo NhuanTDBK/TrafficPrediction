@@ -64,9 +64,10 @@ class NNGridSearch:
         return list_results
 
 # In[ ]:
-list_ninput = 4
+list_ninput = np.arange(4,5)
 learning_rate = np.array([0.1,0.01,0.001,0.0001,0.00001,0.000001])
 list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0]],dtype=np.float64)
+i = list_ninput[0]
 for n_periodic in np.arange(1,6):
 #         n_periodic=1
     n_input = i+n_periodic

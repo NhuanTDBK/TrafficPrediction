@@ -254,7 +254,7 @@ class LoadParam():
 
 # In[5]:
 
-list_nresult = np.zeros((19,6))
+list_nresult = []
 for n_input in np.arange(2,21):
 #     temp = np.zeros(6)
     temp=[]
@@ -262,7 +262,7 @@ for n_input in np.arange(2,21):
     gn = LoadParam("GN",n_input,1)
     #     print "With input"
     #     for i in np.arange(1,data[0:142*30].shape[0],1):
-    i = 40
+    i = 46
     skip_list = 2
     #     print "%d-%d"%(i,i+skip_list)
     # X_training,y_training = nn.generate((i,i+skip_list))
@@ -270,25 +270,31 @@ for n_input in np.arange(2,21):
     X_ptest,y_ptest = gn.generate((i,i+skip_list))
     # Xp_training,yp_training = nnp.generate((i,i+skip_list))
     # Xp_test,yp_test = nnp.generate((i+skip_list+1,i+skip_list+2))
-    # nn.fitTraining(X_training,y_training)
+      # nn.fitTraining(X_training,y_training)
     # nnp.fitTraining(Xp_training,yp_training)
     # dataX = data[142*3:142*5]
-    print "NN score = %f"%nn.score(X_test,y_test)
-    print "GN score = %f"%gn.score(X_ptest,y_ptest)
-#     nn_pred = nn.predict(X_test)
-#     temp.append(nn.score(X_test,y_test))
-#     temp.append(mean_absolute_error(X_test,y_test))
-#     temp.append(r2_score(X_test,y_test))
-    
-#     temp.append(nn.score(X_test,y_test))
-#     temp.append(mean_absolute_error(X_test,y_test))
-#     temp.append(r2_score(X_test,y_test))
-    
-    
-    
-# result_score = pd.DataFrame(list_nresult,columns=["RMSE_NN","MAE_NN","R2_NN","RMSE_GN","MAE_GN","R2_GN"],index=np.arange(2,21))
-# result_score.transpose()
+    print "GN score = %f"%nn.score(X_test,y_test)
+    print "GNP score = %f"%gn.score(X_ptest,y_ptest)
+    nn_pred = nn.predict(X_test)
+    gn_pred = gn.predict(X_ptest)
+    temp.append(nn.score(X_test,y_test))
 
+    
+    temp.append(mean_absolute_error(nn_pred,y_test))
+    temp.append(r2_score(nn_pred,y_test))
+    
+    temp.append(gn.score(X_ptest,y_test))
+    temp.append(mean_absolute_error(gn_pred,y_test))
+    temp.append(r2_score(gn_pred,y_test))
+    list_nresult.append(temp)    
+    
+    
+result_score = pd.DataFrame(list_nresult,columns=["RMSE_NN","MAE_NN","R2_NN","RMSE_GN","MAE_GN","R2_GN"],index=np.arange(2,21)) 
+result_score.transpose()
+from pandas import HDFStore
+resultNN = HDFStore("storeResultGNP")
+resultNN["results"]=result_score
+resultNN.close()
 # gn_pred = gn.convert(gn.predict(X_ptest))[50:250]
 # nn_pred = nn.convert(nn.predict(X_test))[50:250]
 # y_actual = nn.convert(y_test)[50:250]
