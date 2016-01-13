@@ -64,21 +64,20 @@ class NNGridSearch:
         return list_results
 
 # In[ ]:
-list_ninput = np.arange(4,20)
+list_ninput = 4
 learning_rate = np.array([0.1,0.01,0.001,0.0001,0.00001,0.000001])
 list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0]],dtype=np.float64)
-for i in list_ninput:
-    for n_periodic in np.arange(1,6):
+for n_periodic in np.arange(1,6):
 #         n_periodic=1
-        n_input = i+n_periodic
-        from __init__ import *
-        geneticEngine = PyEvolve(n_input)
-        geneticEngine.fit()
-        nnParams = geneticEngine.getParam()
-        X_training, y_training,n_sample2,n_test2 = get_training(i,n_periodic)
-        result = np.zeros(len(learning_rate),dtype=np.float64)
-        test = NNGridSearch(X_training,y_training,n_sample2,n_test2)
-        test.gridsearch_alpha(learning_rate,"%s-%s"%(i,n_periodic),nnParams)
+    n_input = i+n_periodic
+    from __init__ import *
+    geneticEngine = PyEvolve(n_input)
+    geneticEngine.fit()
+    nnParams = geneticEngine.getParam()
+    X_training, y_training,n_sample2,n_test2 = get_training(i,n_periodic)
+    result = np.zeros(len(learning_rate),dtype=np.float64)
+    test = NNGridSearch(X_training,y_training,n_sample2,n_test2)
+    test.gridsearch_alpha(learning_rate,"%s-%s"%(i,n_periodic),nnParams)
 # In[44]:
 print "Saving data..."
 storeResult["results_gn_periodic_grid"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
