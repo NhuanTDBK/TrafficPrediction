@@ -6,6 +6,9 @@
 import pandas as pd
 import numpy as np
 import sys
+from sklearn.metrics import r2_score
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_squared_error
 from pandas import HDFStore
 import matplotlib.pyplot as pl
 import lasagne as ls
@@ -26,6 +29,23 @@ def read_config():
     hidden_layer = int(parser.get("Neural","hidden_layer"))
     epochs = int(parser.get("Neural","epochs"))
     return hidden_layer, epochs
+def saveResult(nn_rmse,nn_map,nn_r2,gn_rmse,gn_map,gn_r2):
+    temp = np.zeros(6,dtype=np.float64)
+#     if(nn_rmse<=gn_rmse):
+#         temp[0]=gn_rmse
+#         temp[1]=gn_map
+#         temp[2]=gn_r2
+#         temp[3]=nn_rmse
+#         temp[4]=nn_map
+#         temp[5]=nn_r2
+#     else:
+    temp[0]=nn_rmse
+    temp[1]=nn_map
+    temp[2]=nn_r2
+    temp[3]=gn_rmse
+    temp[4]=gn_map
+    temp[5]=gn_r2
+    return temp
 class LoadParam():
     def initNN(self):
         #Build layer for MLP
@@ -166,66 +186,129 @@ class LoadParam():
         self.net.fit(X_training,y_training)
 
 
-# In[7]:
+# In[53]:
 
-n_input = 13
-print n_input
-nn = LoadParam("NN",n_input,1)
-gn = LoadParam("GN",n_input,1)
-#     print "With input"
-#     for i in np.arange(1,data[0:142*30].shape[0],1):
-i = 3
-skip_list = 2
-print "%d-%d"%(i,i+skip_list)
-# X_training,y_training = nn.generate((i,i+skip_list))
-X_test,y_test = nn.generate((i,i+skip_list))
+# # list_nresult = np.zeros((19,6))
+# # for n_input in np.arange(2,21):
+# temp = np.zeros(6)
+# n_input =13
+# nn = LoadParam("NN",20)
+# gn = LoadParam("GN",n_input)
+# #     print "With input"
+# #     for i in np.arange(1,data[0:142*30].shape[0],1):
+# i = 7
+# skip_list = 3
+# #     print "%d-%d"%(i,i+skip_list)
+# # X_training,y_training = nn.generate((i,i+skip_list))
+# X_test,y_test = nn.generate((i,i+skip_list))
+# X_ptest,y_ptest = gn.generate((i,i+skip_list))
+# # Xp_training,yp_training = nnp.generate((i,i+skip_list))
+# # Xp_test,yp_test = nnp.generate((i+skip_list+1,i+skip_list+2))
+# # nn.fitTraining(X_training,y_training)
+# # nnp.fitTraining(Xp_training,yp_training)
+# # dataX = data[142*3:142*5]
+# print "NN score = %f"%nn.score(X_test,y_test)
+# print "GN score = %f"%gn.score(X_ptest,y_ptest)
 
-# Xp_training,yp_training = nnp.generate((i,i+skip_list))
-# Xp_test,yp_test = nnp.generate((i+skip_list+1,i+skip_list+2))
-# nn.fitTraining(X_training,y_training)
-# nnp.fitTraining(Xp_training,yp_training)
-# dataX = data[142*3:142*5]
-print "NN score = %f"%nn.score(X_test,y_test)
-print "GN score = %f"%gn.score(X_test,y_test)
+# result_score = pd.DataFrame(list_nresult,columns=["RMSE_NN","MAE_NN","R2_NN","RMSE_GN","MAE_GN","R2_GN"],index=np.arange(2,21))
+# result_score.transpose()
 
-
-# In[ ]:
-
-# train_loss = np.array([i["train_loss"] for i in nn.net.train_history_])
-# valid_loss = np.array([i["train_loss"] for i in nnp.net.train_history_])
+# gn_pred = gn.convert(gn.predict(X_ptest))[50:250]
+# nn_pred = nn.convert(nn.predict(X_test))[50:250]
+# y_actual = nn.convert(y_test)[50:250]
+# ax2 = pl.subplot()
+# ax2.set_color_cycle(['blue','red','green'])
+# # ax2.plot(nn_pred,'--',label="Neural Network ")
+# ax2.plot(gn_pred,'--',label="Genetic Neural Network")
+# ax2.plot(y_actual,label="Actual")
+# ax2.set_title("Genetic Neural Network based Prediction (Sliding Window Size = 11)")
+# ax2.set_ylabel("Connections")
+# ax2.set_xlabel("Time (minutes)")
+# ax2.set_color_cycle(['blue','red'])
+# ax2.legend()
+# pl.show()
 
 
 # In[ ]:
 
 # ax = pl.subplot()
-# # ax.plot(train_loss,label="train loss nn")
-# ax.plot(valid_loss,label="train_loss gn")
+# ax.set_color_cycle(['red','blue','green'])
+# ax.plot(result_score["MAPE_NN"],label="MAPE NN")
+# ax.set_xlim(xmin=2)
+# ax.plot(result_score["MAPE_GN"],label="MAPE GN")
+# # ax.plot(nn_pred,label="Neural Network")
+# ax.plot()
 # ax.legend()
 # pl.show()
 
 
-# In[6]:
+# In[ ]:
 
-workload = nn.workload
-gn_pred = nn.convert(gn.predict(X_test))
-nn_pred = nn.convert(nn.predict(X_test))
-y_actual = nn.convert(y_test)
-ax = pl.subplot()
-ax.set_color_cycle(['red','blue','green'])
-ax.plot(gn_pred,label="Genetic Neural Network")
-# ax.plot(nn_pred,label="Neural Network")
-ax.set_title("Genetic Neural Network")
-ax.plot(y_actual,'--',label="Actual")
-ax.plot()
-ax.legend()
-# ax1.plot(GN.y_training)
-# ax1.legend(["Predict","Actual"])
-# # ax1.set_color_cycle(['blue','red'])
-# ax2.plot(nn_pred,label="Neural Network")
-# ax2.plot(NN.y_training)
-# ax2.set_title("Neural Network")
+# %matplotlib
+# ax1 = result_score["MAE_GN"].plot(kind='line',title="MAE vs. Window size (Neural Network)",grid=False)
+# ax1.set_ylabel("Mean absolute error (MAE)")
+# ax1.set_xlabel("Sliding Window size")
+# ax1.set_color_cycle(['red'])
+# result_score["MAE_NN"].plot(kind='line',label="MAE NN")
+
+
+# In[5]:
+
+list_nresult = []
+for n_input in np.arange(2,21):
+#     temp = np.zeros(6)
+    temp=[]
+    nn = LoadParam("GN",n_input)
+    gn = LoadParam("GN",n_input,1)
+    #     print "With input"
+    #     for i in np.arange(1,data[0:142*30].shape[0],1):
+    i = 46
+    skip_list = 2
+    #     print "%d-%d"%(i,i+skip_list)
+    # X_training,y_training = nn.generate((i,i+skip_list))
+    X_test,y_test = nn.generate((i,i+skip_list))
+    X_ptest,y_ptest = gn.generate((i,i+skip_list))
+    # Xp_training,yp_training = nnp.generate((i,i+skip_list))
+    # Xp_test,yp_test = nnp.generate((i+skip_list+1,i+skip_list+2))
+      # nn.fitTraining(X_training,y_training)
+    # nnp.fitTraining(Xp_training,yp_training)
+    # dataX = data[142*3:142*5]
+    print "GN score = %f"%nn.score(X_test,y_test)
+    print "GNP score = %f"%gn.score(X_ptest,y_ptest)
+    nn_pred = nn.predict(X_test)
+    gn_pred = gn.predict(X_ptest)
+    temp.append(nn.score(X_test,y_test))
+
+    
+    temp.append(mean_absolute_error(nn_pred,y_test))
+    temp.append(r2_score(nn_pred,y_test))
+    
+    temp.append(gn.score(X_ptest,y_test))
+    temp.append(mean_absolute_error(gn_pred,y_test))
+    temp.append(r2_score(gn_pred,y_test))
+    list_nresult.append(temp)    
+    
+    
+result_score = pd.DataFrame(list_nresult,columns=["RMSE_NN","MAE_NN","R2_NN","RMSE_GN","MAE_GN","R2_GN"],index=np.arange(2,21)) 
+result_score.transpose()
+from pandas import HDFStore
+resultNN = HDFStore("storeResultGNP")
+resultNN["results"]=result_score
+resultNN.close()
+# gn_pred = gn.convert(gn.predict(X_ptest))[50:250]
+# nn_pred = nn.convert(nn.predict(X_test))[50:250]
+# y_actual = nn.convert(y_test)[50:250]
+# ax2 = pl.subplot()
+# ax2.set_color_cycle(['blue','red','green'])
+# # ax2.plot(nn_pred,'--',label="Neural Network ")
+# ax2.plot(gn_pred,'--',label="Genetic Neural Network")
+# ax2.plot(y_actual,label="Actual")
+# ax2.set_title("Genetic Neural Network based Prediction (Sliding Window Size = 11)")
+# ax2.set_ylabel("Connections")
+# ax2.set_xlabel("Time (minutes)")
 # ax2.set_color_cycle(['blue','red'])
-pl.show()
+# ax2.legend()
+# pl.show()
 
 
 # In[ ]:

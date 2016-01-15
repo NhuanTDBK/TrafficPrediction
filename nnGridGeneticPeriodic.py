@@ -1,11 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
 # In[ ]:
 
 import numpy as np
@@ -71,7 +63,7 @@ class NNGridSearch:
 
 # In[ ]:
 list_ninput = np.arange(2,21)
-learning_rate = np.array([0.1,0.01,0.001,0.0001,0.00001,0.000001])
+learning_rate = np.array([0.01,0.001,0.0001,0.00001,0.000001])
 list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0] ],dtype=np.float64)
 for i in list_ninput:
     n_periodic=1
@@ -83,7 +75,7 @@ for i in list_ninput:
     X_training, y_training,n_sample2,n_test2 = get_training(i,n_periodic)
     result = np.zeros(len(learning_rate),dtype=np.float64)
     test = NNGridSearch(X_training,y_training,n_sample2,n_test2)
-    list_results[2-i] = test.gridsearch_alpha(learning_rate,i,nnParams)
+    list_results[i-2] = test.gridsearch_alpha(learning_rate,i,nnParams)
     
 # In[44]:
 print "Saving data..."
@@ -103,6 +95,3 @@ storeResult.close()
 
 
 # In[ ]:
-
-
-

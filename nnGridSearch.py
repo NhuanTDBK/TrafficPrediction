@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # In[ ]:
@@ -53,8 +52,6 @@ class NNGridSearch:
 #                 verbose=1,
                 eval_size = 0.4
             )
-            #
-            
             net1.fit(self.X_training,self.y_training)
             self.pred = net1.predict(self.n_sample2)
             name_file = "Params/saveNeuralNetwork_%s_%s.tdn" %(item,index)
@@ -66,7 +63,7 @@ class NNGridSearch:
 
 # In[ ]:
 list_ninput = np.arange(2,21)
-learning_rate = np.array([0.1,0.01,0.001,0.0001,0.00001,0.000001])
+learning_rate = np.array([0.00001,0.000001])
 list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0] ],dtype=np.float64)
 for i in list_ninput:
     print '.'
@@ -82,8 +79,9 @@ for i in list_ninput:
     
 # In[44]:
 print "Saving data..."
-storeResult["results_nn"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
-storeResult.close()
+np.savez("experiement14-1",result=list_results)
+#storeResult["results_nn"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
+#storeResult.close()
 # ax = pl.subplot()
 # ax.set_color_cycle(['blue','red'])
 # ax.plot(n_test2,label="actual")
@@ -92,6 +90,3 @@ storeResult.close()
 # pl.show()
 
 # In[ ]:
-
-
-
