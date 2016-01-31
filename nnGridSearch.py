@@ -63,7 +63,7 @@ class NNGridSearch:
 
 # In[ ]:
 list_ninput = np.arange(2,21)
-learning_rate = np.array([0.00001,0.000001])
+learning_rate = np.array([0.1,0.01,0.001,0.00001,0.000001])
 list_results = np.zeros([ list_ninput.shape[0], learning_rate.shape[0] ],dtype=np.float64)
 for i in list_ninput:
     print '.'
@@ -79,7 +79,7 @@ for i in list_ninput:
     
 # In[44]:
 print "Saving data..."
-np.savez("experiement14-1",result=list_results)
+np.savez("experiement31-1",result=list_results)
 #storeResult["results_nn"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
 #storeResult.close()
 # ax = pl.subplot()
