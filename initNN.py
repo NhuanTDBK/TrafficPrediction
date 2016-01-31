@@ -48,7 +48,7 @@ class LoadParam():
         l_in = ls.layers.InputLayer(shape=(None,self.n_input+self.n_periodic),input_var=None)
         l_hidden = ls.layers.DenseLayer(l_in,num_units=hidden_layer,nonlinearity=ls.nonlinearities.rectify)
         network = l_out = ls.layers.DenseLayer(l_hidden,num_units=1)
-        print "Neural network initialize"
+        #print "Neural network initialize"
         #Init Neural net
         net1 = NeuralNet(
             layers=network,
@@ -109,19 +109,18 @@ class LoadParam():
         return (data*(max_val-min_val)+min_val)
     def generate(self,range_training,range_test=1):
         # In[62]:
-        print "Loading storage"
-        print "generate data"
+        #print "Loading storage"
+        #print "generate data"
         self.workload = data[142*range_training[0]-self.n_input:142*range_training[1]]
         data_training = self.normalize(self.workload)
         X_training = self.getTraining(self.workload)
-#         data_validation = data[142*range_training[1]-self.n_input:142*(range_training+range_test)]
-        data_test = data[142*range_training[0]:142*range_training[1]]
+	data_test = data[142*range_training[0]:142*range_training[1]]
         return np.asarray(X_training),np.asarray(data_test)
     def getTraining(self,workload):
         raw_data = data
         data_training = self.normalize(workload)
-        print "Generate X_traing, y_traing"
-        print "X_training loading..."
+ #       print "Generate X_traing, y_traing"
+#        print "X_training loading..."
         max_val = float(workload.max())
         min_val = float(workload.min())
         n_row = data_training.shape[0]

@@ -67,7 +67,7 @@ for n_input in np.arange(2,21):
 # ax.plot(gn_pred)
 # ax.plot(y_test)
 # pl.show()
-pd.DataFrame(list_nresult)
+print pd.DataFrame(list_nresult)
 
 
 # In[ ]:
