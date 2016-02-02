@@ -26,8 +26,8 @@ list_nresult = []
 for n_input in np.arange(2,21):
 #     n_input=15
     temp = []
-    nn = LoadParam("NN",n_input)
-    gn = LoadParam("GN",n_input)
+    nn = LoadParam("GN",n_input)
+    gn = LoadParam("GN",n_input,1)
     i=46
     skip_list = 3
     X_test,y_test = nn.generate((i,i+skip_list))
