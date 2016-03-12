@@ -6,17 +6,8 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as pl
-import pickle as pkl
-import sklearn
-from sklearn.metrics import mean_squared_error
-import theano
 import lasagne as ls
-from theano import tensor as T
-from lasagne.layers import InputLayer, DenseLayer
-from lasagne.updates import nesterov_momentum
-from lasagne.nonlinearities import rectify
 from nolearn.lasagne import NeuralNet
-# from sklearn import mean_squared_error
 from pandas import HDFStore
 store = HDFStore("storeTraffic.h5")
 

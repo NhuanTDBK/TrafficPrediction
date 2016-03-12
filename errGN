@@ -1,4 +1,0 @@
-/home/ubuntu/NhuanWorking/nolearn/nolearn/lasagne/base.py:206: UserWarning: The 'eval_size' argument has been deprecated, please use the 'train_split' parameter instead, e.g.
-train_split=TrainSplit(eval_size=0.4)
-  warn("The 'eval_size' argument has been deprecated, please use "
-Closing remaining open files:storeTraffic.h5...done

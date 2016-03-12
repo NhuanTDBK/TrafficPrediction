@@ -1,7 +1,0 @@
-split -d -l $1 $2 $3
-for file in $3*
-do
-    head -n 1 $2 > tmp_file
-    cat $file >> tmp_file
-    mv -f tmp_file $file
-done
