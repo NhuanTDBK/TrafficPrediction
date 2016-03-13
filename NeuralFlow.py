@@ -37,6 +37,7 @@ class NeuralFlowRegressor(BaseEstimator):
             self.model_fn = model_fn
         else:
             self.model_fn = self.model_regression
+        self.weights_matrix = None
     def model_regression(self,X,y):
         input_layer = tf.contrib.layers.fully_connected(X,self.n_hidden,activation_fn=tf.nn.relu,weight_init=self.weight_init,bias_init=self.bias_init)
         # hidden_layer = tf.contrib.layers.fully_connected(input_layer,self.n_hidden,activation_fn=tf.nn.relu)

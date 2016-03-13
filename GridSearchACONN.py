@@ -6,8 +6,7 @@ from joblib import Parallel,delayed
 def get_params():
     dataFeeder = TrafficFeeder()
     out = Parallel(n_jobs=-1)(delayed(put_queue)
-                        (n_input,dataFeeder) for n_input in range(4,30))
-    # out = [put_queue(n_input,dataFeeder) for n_input in range(4,20)]
+                        (n_input,dataFeeder) for n_input in range(4,21))
     return out
 def put_queue(n_input,dataFeeder):
     X_train,y_train = dataFeeder.fetch_traffic_training(n_input,1,(40,46))
@@ -21,7 +20,7 @@ def model_fit(param):
     y_train = param[1][1]
     X_test = param[1][2]
     y_test = param[1][3]
-    acoNet = ACOEstimator(Q=0.09,epsilon=0.55)
+    acoNet = ACOEstimator(Q=0.07,epsilon=0.55)
     fit_param = {
         "neural_shape":neural_shape
     }
@@ -34,6 +33,5 @@ def fit_and_evaluate():
     out = get_params()
     result = Parallel(n_jobs=-1)(delayed(model_fit)(param) for param in out)
     result_sorted = sorted(result,key=lambda x:x[1])
-    print result_sorted[0]
     return result_sorted
-fit_and_evaluate()
+print fit_and_evaluate()

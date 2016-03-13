@@ -21,7 +21,7 @@ def initialize_param(weights_layer,bias_layer,uniform_init=True):
 def construct_candidate(neural_shape,uniform_init=True):
     weights_layer = [(neural_shape[t-1],neural_shape[t]) for t in range(1,len(neural_shape))]
     bias_layer = [neural_shape[t] for t in range(1,len(neural_shape))]
-    W,b = initialize_param(weights_layer,bias_layer)
+    W,b = initialize_param(weights_layer,bias_layer,uniform_init)
     param_network = zip(W,b)
     total_weights = []
     for param in param_network:

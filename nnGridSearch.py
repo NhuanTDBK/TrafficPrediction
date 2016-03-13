@@ -79,7 +79,7 @@ for i in list_ninput:
     
 # In[44]:
 print "Saving data..."
-np.savez("experiement31-1",result=list_results)
+np.savez("experiement14-1",result=list_results)
 #storeResult["results_nn"] = pd.DataFrame(list_results,index=list_ninput,columns=learning_rate)
 #storeResult.close()
 # ax = pl.subplot()
