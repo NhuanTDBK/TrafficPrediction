@@ -20,7 +20,7 @@ class NeuralFlowRegressor(BaseEstimator):
         for param,value in params.items():
             self.__setattr__(param,value)
         return self
-    def __init__(self,uniform_init=True,learning_rate = 1E-01,activation=None,optimize="Adam",steps=1000,batch_size=100,weights_matrix=None,model_fn=None):
+    def __init__(self,uniform_init=True,learning_rate = 1E-01,activation=None,optimize="SGD",steps=1000,batch_size=100,weights_matrix=None,model_fn=None):
         print "Initialization"
         if(activation==None):
             self.activation = tf.nn.relu

@@ -1,0 +1,252 @@
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:38: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:40: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:42: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.archive==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:76: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:78: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X==None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:38: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:40: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:42: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.archive==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:76: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:78: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X==None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:38: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:40: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:42: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.archive==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:76: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:78: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X==None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:38: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:40: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:42: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.archive==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:76: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:78: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X==None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:51: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.sorted_archive==None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:51: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.sorted_archive==None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:51: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.sorted_archive==None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:51: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.sorted_archive==None):
+Initilization
+Found best loss 0.053239
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.049307
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.043714
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.059017
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.048639
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.057493
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.044071
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.047696
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.051708
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.043669
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.040934
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061287
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.049244
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Found best loss 0.060631
+Initilization
+Initilization
+Initilization
+Found best loss 0.061920
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+Initilization
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:38: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:40: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y!=None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:42: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.archive==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:76: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(y==None):
+/home/nhuan/notebook/TrafficPrediction/FeedFlow.py:78: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(X==None):
+/home/nhuan/notebook/TrafficPrediction/ACOEstimator.py:51: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if(self.sorted_archive==None):
+Initilization
+ACOEstimator(Q=0.02, const_sd=0.1, epsilon=0.20000000000000004,
+       error_criteria=0.9, max_epochs=100, neural_shape=[5, 15, 1],
+       number_of_solutions=100, number_of_weights=None)
+1.06687775324
+Closing remaining open files:storeTraffic.h5...donestoreTraffic.h5...done

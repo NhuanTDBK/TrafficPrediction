@@ -36,7 +36,7 @@ class TrafficFeeder():
     def generate_test(self, range_training):
         # In[62]:
         self.workload = data[142 * range_training[0] - self.n_input:142 * range_training[1]]
-        data_training = self.normalize(self.workload)
+        data_training = self.workload
         X_training = self.getTraining(self.workload)
         #         data_validation = data[142*range_training[1]-self.n_input:142*(range_training+range_test)]
         data_test = data[142 * range_training[0]:142 * range_training[1]]

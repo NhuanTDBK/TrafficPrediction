@@ -1,0 +1,325 @@
+False
+Training 5
+Initilization
+Gen. 0 (0.00%):Training 6
+Initilization
+Gen. 0 (0.00%):Training 8
+Initilization
+Gen. 0 (0.00%):Training 7
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [0.95(3.07)/0.74(0.08)/0.79(0.79)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.87(1.71)/0.64(0.16)/0.73(0.73)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.70(1.51)/0.52(0.07)/0.58(0.58)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.97(1.77)/0.70(0.14)/0.81(0.81)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [1.06(3.30)/0.83(0.21)/0.88(0.88)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.03(2.74)/0.80(0.19)/0.86(0.86)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [0.96(1.82)/0.70(0.14)/0.80(0.80)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.55(3.03)/1.12(0.18)/1.29(1.29)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.39(3.37)/1.06(0.22)/1.15(1.15)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.24(2.38)/0.90(0.15)/1.03(1.03)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.20(3.60)/0.94(0.15)/1.00(1.00)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.92(4.57)/1.45(0.26)/1.60(1.60)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [2.79(4.87)/1.97(0.37)/2.33(2.33)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [1.76(4.55)/1.35(0.22)/1.47(1.47)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [1.77(3.23)/1.25(0.14)/1.47(1.47)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [2.14(4.90)/1.61(0.27)/1.78(1.78)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [3.56(6.16)/2.45(0.18)/2.96(2.96)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [2.26(4.55)/1.68(0.45)/1.88(1.88)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [2.81(3.60)/1.59(0.32)/2.34(2.34)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [2.15(4.93)/1.62(0.27)/1.79(1.79)]
+Gen. 50 (100.00%):Stopping. Best step:
+ step 600 with loss 0.000440587318735
+Stopping. Best step:
+ step 513 with loss 0.000114268710604
+Stopping. Best step:
+ step 513 with loss 0.0012843220029
+ Max/Min/Avg Fitness(Raw) [4.37(6.16)/2.68(0.32)/3.64(3.64)]
+Total time elapsed: 1.673 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.39005
+Step #200, epoch #22, avg. train loss: 0.01019
+Step #300, epoch #33, avg. train loss: 0.00405
+Step #400, epoch #44, avg. train loss: 0.00317
+Step #500, epoch #55, avg. train loss: 0.00282
+Step #600, epoch #66, avg. train loss: 0.00255
+Step #700, epoch #77, avg. train loss: 0.00239
+Step #800, epoch #88, avg. train loss: 0.00238
+Training 9
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [2.67(5.35)/1.96(0.37)/2.23(2.23)]
+Total time elapsed: 1.683 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.23225
+Step #200, epoch #22, avg. train loss: 0.00206
+Step #300, epoch #33, avg. train loss: 0.00179
+Step #400, epoch #44, avg. train loss: 0.00161
+Step #500, epoch #55, avg. train loss: 0.00159
+Step #600, epoch #66, avg. train loss: 0.00145
+Step #700, epoch #77, avg. train loss: 0.00140
+Training 10
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [3.87(6.10)/2.56(0.27)/3.22(3.22)]
+Total time elapsed: 1.838 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.39351
+Step #200, epoch #22, avg. train loss: 0.01064
+Step #300, epoch #33, avg. train loss: 0.00802
+Step #400, epoch #44, avg. train loss: 0.00651
+Step #500, epoch #55, avg. train loss: 0.00572
+Step #600, epoch #66, avg. train loss: 0.00505
+Step #700, epoch #77, avg. train loss: 0.00457
+Training 11
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [3.45(3.90)/2.28(1.82)/2.87(2.87)]
+Total time elapsed: 1.694 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.18033
+Step #200, epoch #22, avg. train loss: 0.03418
+Step #300, epoch #33, avg. train loss: 0.03091
+Step #400, epoch #44, avg. train loss: 0.02925
+Step #500, epoch #55, avg. train loss: 0.02724
+Step #600, epoch #66, avg. train loss: 0.01848
+Step #700, epoch #77, avg. train loss: 0.00709
+Step #800, epoch #88, avg. train loss: 0.00298
+Step #900, epoch #100, avg. train loss: 0.00233
+Step #1000, epoch #111, avg. train loss: 0.00221
+Training 12
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [0.66(1.65)/0.51(0.11)/0.55(0.55)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.60(1.26)/0.45(0.14)/0.50(0.50)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.73(1.90)/0.56(0.09)/0.61(0.61)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.86(2.35)/0.67(0.17)/0.72(0.72)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [0.61(1.23)/0.46(0.12)/0.51(0.51)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [1.00(2.01)/0.75(0.22)/0.84(0.84)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.05(2.40)/0.79(0.15)/0.88(0.88)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.13(2.35)/0.84(0.15)/0.94(0.94)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [0.95(1.87)/0.70(0.15)/0.79(0.79)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.29(2.66)/0.96(0.19)/1.08(1.08)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.26(2.29)/0.92(0.29)/1.05(1.05)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.34(2.35)/0.96(0.25)/1.12(1.12)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [2.15(2.98)/1.37(0.39)/1.79(1.79)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [1.78(2.66)/1.31(0.77)/1.49(1.49)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [0.88(1.95)/0.66(0.17)/0.73(0.73)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [2.50(3.45)/1.75(1.00)/2.08(2.08)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [1.36(2.82)/1.03(0.32)/1.14(1.14)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [1.52(2.67)/1.07(0.17)/1.27(1.27)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [2.62(3.78)/1.88(1.09)/2.18(2.18)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [1.84(3.00)/1.33(0.57)/1.54(1.54)]
+Gen. 50 (100.00%):Stopping. Best step:
+ step 513 with loss 0.000192244508071
+ Max/Min/Avg Fitness(Raw) [1.81(3.35)/1.31(0.28)/1.51(1.51)]
+Total time elapsed: 1.912 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.07541
+Step #200, epoch #22, avg. train loss: 0.00250
+Step #300, epoch #33, avg. train loss: 0.00218
+Step #400, epoch #44, avg. train loss: 0.00191
+Step #500, epoch #55, avg. train loss: 0.00186
+Step #600, epoch #66, avg. train loss: 0.00176
+Step #700, epoch #77, avg. train loss: 0.00167
+Training 13
+Initilization
+Gen. 0 (0.00%):Stopping. Best step:
+ step 513 with loss 0.0019055561861
+ Max/Min/Avg Fitness(Raw) [2.65(3.48)/1.93(1.41)/2.21(2.21)]
+Total time elapsed: 1.894 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.15322
+Step #200, epoch #22, avg. train loss: 0.03069
+Step #300, epoch #33, avg. train loss: 0.02075
+Step #400, epoch #44, avg. train loss: 0.01244
+Step #500, epoch #55, avg. train loss: 0.00947
+Step #600, epoch #66, avg. train loss: 0.00846
+Step #700, epoch #77, avg. train loss: 0.00793
+Training 14
+Initilization
+Gen. 0 (0.00%):Stopping. Best step:
+ step 513 with loss 0.000346305896528
+ Max/Min/Avg Fitness(Raw) [0.66(1.24)/0.48(0.10)/0.55(0.55)]
+Gen. 10 (20.00%):Stopping. Best step:
+ step 513 with loss 0.00025949801784
+ Max/Min/Avg Fitness(Raw) [3.22(4.26)/2.34(1.68)/2.68(2.68)]
+Total time elapsed: 2.016 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.18493
+Step #200, epoch #22, avg. train loss: 0.00788
+Step #300, epoch #33, avg. train loss: 0.00458
+Step #400, epoch #44, avg. train loss: 0.00361
+Step #500, epoch #55, avg. train loss: 0.00311
+Step #600, epoch #66, avg. train loss: 0.00262
+Step #700, epoch #77, avg. train loss: 0.00229
+Training 15
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [2.54(3.12)/1.69(1.10)/2.12(2.12)]
+Total time elapsed: 2.010 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.12882
+Step #200, epoch #22, avg. train loss: 0.00783
+Step #300, epoch #33, avg. train loss: 0.00341
+Step #400, epoch #44, avg. train loss: 0.00282
+Step #500, epoch #55, avg. train loss: 0.00250
+Step #600, epoch #66, avg. train loss: 0.00214
+Step #700, epoch #77, avg. train loss: 0.00195
+Training 16
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [0.61(1.17)/0.45(0.13)/0.51(0.51)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [1.13(1.83)/0.84(0.46)/0.94(0.94)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [0.55(1.28)/0.42(0.11)/0.46(0.46)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.48(1.11)/0.37(0.12)/0.40(0.40)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [1.28(1.93)/0.85(0.21)/1.07(1.07)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.30(2.27)/0.94(0.29)/1.08(1.08)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [0.74(1.47)/0.55(0.17)/0.62(0.62)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [0.85(1.63)/0.64(0.25)/0.71(0.71)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.56(2.41)/1.07(0.33)/1.30(1.30)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.83(2.49)/1.33(0.91)/1.52(1.52)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [0.89(1.51)/0.63(0.17)/0.74(0.74)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.11(1.86)/0.77(0.12)/0.93(0.93)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [2.05(2.96)/1.50(0.93)/1.71(1.71)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [2.51(2.97)/1.73(1.34)/2.09(2.09)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [0.95(1.90)/0.71(0.17)/0.80(0.80)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [1.42(2.60)/1.05(0.37)/1.18(1.18)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [2.45(3.01)/1.74(1.33)/2.05(2.05)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [1.22(2.20)/0.88(0.20)/1.02(1.02)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [2.31(2.81)/1.44(0.82)/1.93(1.93)]
+Gen. 50 (100.00%):Stopping. Best step:
+ step 513 with loss 0.000773204083089
+ Max/Min/Avg Fitness(Raw) [2.78(3.08)/1.84(1.53)/2.32(2.32)]
+Total time elapsed: 2.048 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.13071
+Step #200, epoch #22, avg. train loss: 0.01092
+Step #300, epoch #33, avg. train loss: 0.00705
+Step #400, epoch #44, avg. train loss: 0.00634
+Step #500, epoch #55, avg. train loss: 0.00594
+Step #600, epoch #66, avg. train loss: 0.00528
+Step #700, epoch #77, avg. train loss: 0.00483
+Training 17
+Initilization
+Gen. 0 (0.00%):Stopping. Best step:
+ step 513 with loss 0.000768805155531
+ Max/Min/Avg Fitness(Raw) [1.75(2.83)/1.28(0.61)/1.46(1.46)]
+Total time elapsed: 1.988 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.12735
+Step #200, epoch #22, avg. train loss: 0.02567
+Step #300, epoch #33, avg. train loss: 0.01269
+Step #400, epoch #44, avg. train loss: 0.00714
+Step #500, epoch #55, avg. train loss: 0.00606
+Step #600, epoch #66, avg. train loss: 0.00528
+Step #700, epoch #77, avg. train loss: 0.00486
+Training 18
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [2.89(3.27)/1.89(1.47)/2.41(2.41)]
+Total time elapsed: 2.081 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.14353
+Step #200, epoch #22, avg. train loss: 0.03338
+Step #300, epoch #33, avg. train loss: 0.03066
+Step #400, epoch #44, avg. train loss: 0.02879
+Step #500, epoch #55, avg. train loss: 0.02551
+Step #600, epoch #66, avg. train loss: 0.01610
+Step #700, epoch #77, avg. train loss: 0.00902
+Step #800, epoch #88, avg. train loss: 0.00729
+Step #900, epoch #100, avg. train loss: 0.00630
+Step #1000, epoch #111, avg. train loss: 0.00578
+Training 19
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [0.51(1.17)/0.39(0.09)/0.42(0.42)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.53(1.15)/0.40(0.13)/0.44(0.44)]
+Gen. 10 (20.00%):Stopping. Best step:
+ step 720 with loss 0.00238821236417
+ Max/Min/Avg Fitness(Raw) [3.12(3.86)/2.19(1.61)/2.60(2.60)]
+Total time elapsed: 2.207 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.16685
+Step #200, epoch #22, avg. train loss: 0.02858
+Step #300, epoch #33, avg. train loss: 0.02043
+Step #400, epoch #44, avg. train loss: 0.01513
+Step #500, epoch #55, avg. train loss: 0.01322
+Step #600, epoch #66, avg. train loss: 0.01175
+Step #700, epoch #77, avg. train loss: 0.01089
+Step #800, epoch #88, avg. train loss: 0.01028
+Step #900, epoch #100, avg. train loss: 0.00904
+Training 20
+Initilization
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [0.54(0.95)/0.39(0.14)/0.45(0.45)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.93(1.59)/0.66(0.15)/0.77(0.77)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.01(1.59)/0.72(0.29)/0.84(0.84)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [0.56(1.17)/0.43(0.16)/0.47(0.47)]
+Gen. 10 (20.00%): Max/Min/Avg Fitness(Raw) [0.82(1.56)/0.62(0.25)/0.69(0.69)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.36(2.49)/1.03(0.54)/1.13(1.13)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.30(2.30)/0.93(0.24)/1.08(1.08)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [0.77(1.51)/0.58(0.20)/0.64(0.64)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [0.99(1.65)/0.69(0.16)/0.83(0.83)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.94(2.97)/1.38(0.64)/1.62(1.62)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [1.81(2.67)/1.32(0.77)/1.51(1.51)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [0.89(2.00)/0.67(0.13)/0.74(0.74)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.50(1.94)/0.99(0.53)/1.25(1.25)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [2.14(3.25)/1.60(1.05)/1.78(1.78)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [1.30(2.08)/0.88(0.14)/1.08(1.08)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [2.46(3.09)/1.79(1.39)/2.05(2.05)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [1.85(2.53)/1.33(0.87)/1.54(1.54)]
+Gen. 50 (100.00%): Max/Min/Avg Fitness(Raw) [1.62(2.20)/1.18(0.83)/1.35(1.35)]
+Gen. 50 (100.00%):Stopping. Best step:
+ step 315 with loss 0.00299830781296
+ Max/Min/Avg Fitness(Raw) [2.48(3.25)/1.79(1.28)/2.07(2.07)]
+Total time elapsed: 2.243 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.13775
+Step #200, epoch #22, avg. train loss: 0.02333
+Step #300, epoch #33, avg. train loss: 0.01747
+Step #400, epoch #44, avg. train loss: 0.01520
+Step #500, epoch #55, avg. train loss: 0.01403
+Training 21
+Initilization
+Gen. 0 (0.00%):Stopping. Best step:
+ step 306 with loss 0.00116766686551
+ Max/Min/Avg Fitness(Raw) [0.44(1.05)/0.34(0.11)/0.37(0.37)]
+Gen. 10 (20.00%):Stopping. Best step:
+ step 513 with loss 0.00122943008319
+Stopping. Best step:
+ step 306 with loss 0.000865812646225
+ Max/Min/Avg Fitness(Raw) [0.88(1.64)/0.64(0.18)/0.73(0.73)]
+Gen. 20 (40.00%): Max/Min/Avg Fitness(Raw) [1.00(2.14)/0.77(0.32)/0.83(0.83)]
+Gen. 30 (60.00%): Max/Min/Avg Fitness(Raw) [1.56(2.61)/1.15(0.53)/1.30(1.30)]
+Gen. 40 (80.00%): Max/Min/Avg Fitness(Raw) [2.53(3.35)/1.87(1.40)/2.11(2.11)]
+Gen. 50 (100.00%):Stopping. Best step:
+ step 513 with loss 0.000720248150174
+ Max/Min/Avg Fitness(Raw) [2.68(3.29)/1.66(0.87)/2.23(2.23)]
+Total time elapsed: 2.355 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.13754
+Step #200, epoch #22, avg. train loss: 0.01522
+Step #300, epoch #33, avg. train loss: 0.00756
+Step #400, epoch #44, avg. train loss: 0.00629
+Step #500, epoch #55, avg. train loss: 0.00560
+ Max/Min/Avg Fitness(Raw) [1.87(2.56)/1.36(0.91)/1.56(1.56)]
+Total time elapsed: 2.205 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.08593
+Step #200, epoch #22, avg. train loss: 0.01073
+Step #300, epoch #33, avg. train loss: 0.00839
+Step #400, epoch #44, avg. train loss: 0.00658
+Step #500, epoch #55, avg. train loss: 0.00566
+Step #600, epoch #66, avg. train loss: 0.00490
+Step #700, epoch #77, avg. train loss: 0.00443
+ Max/Min/Avg Fitness(Raw) [1.67(2.51)/1.22(0.71)/1.39(1.39)]
+Total time elapsed: 2.249 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.08705
+Step #200, epoch #22, avg. train loss: 0.00458
+Step #300, epoch #33, avg. train loss: 0.00383
+Step #400, epoch #44, avg. train loss: 0.00335
+Step #500, epoch #55, avg. train loss: 0.00302
+ Max/Min/Avg Fitness(Raw) [2.83(3.35)/2.07(1.76)/2.36(2.36)]
+Total time elapsed: 1.628 seconds.
+Initialization
+Step #100, epoch #11, avg. train loss: 0.12457
+Step #200, epoch #22, avg. train loss: 0.00745
+Step #300, epoch #33, avg. train loss: 0.00681
+Step #400, epoch #44, avg. train loss: 0.00620
+Step #500, epoch #55, avg. train loss: 0.00571
+Step #600, epoch #66, avg. train loss: 0.00505
+Step #700, epoch #77, avg. train loss: 0.00463
+[(6, 0.050994842205731944), (9, 0.057923631314880014), (10, 0.057929778647310727), (12, 0.059568629459737142), (8, 0.063748721485388585), (5, 0.064019241011344888), (20, 0.075561793809120759), (7, 0.0835946920603933), (21, 0.087733419933634385), (15, 0.089808654864546728), (14, 0.090462649996767425), (19, 0.095793710044777436), (18, 0.1036513436110456), (13, 0.10504771511755988), (16, 0.12006779521958949), (11, 0.12469924854751539), (17, 0.14439941747478044)]
+Closing remaining open files:storeTraffic.h5...donestoreTraffic.h5...done

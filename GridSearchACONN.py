@@ -20,7 +20,7 @@ def model_fit(param):
     y_train = param[1][1]
     X_test = param[1][2]
     y_test = param[1][3]
-    acoNet = ACOEstimator(Q=0.07,epsilon=0.55)
+    acoNet = ACOEstimator(Q=0.08,epsilon=0.55)
     fit_param = {
         "neural_shape":neural_shape
     }

@@ -18,6 +18,7 @@ class ACOEstimator(BaseEstimator):
         self.best_loss = np.Inf
         self.best_archive = []
         self._estimator_type="regressor"
+        self.top_k = 1
     def get_params(self, deep=True):
         return {
             "epsilon":self.epsilon,
@@ -63,6 +64,8 @@ class ACOEstimator(BaseEstimator):
         self.y = y
         self.neural_shape = param.get('neural_shape')
         self.archive = param.get("archive")
+        if(param.has_key("top_k")):
+            self.top_k = param.get("top_k")
         self.score_fn = FeedFlow(self.neural_shape)
         self.score_fn.set_weights(self.optimize(X,y))
         return self

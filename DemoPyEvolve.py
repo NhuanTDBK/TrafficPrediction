@@ -9,6 +9,7 @@ import matplotlib.pyplot as pl
 from __init__ import *
 
 class PyEvolve:
+        
     def __init__(self,n_input):
         self.n_input = n_input
         self.X_data, self.y_data,self.x_test,self.y_test = get_training(n_input)
