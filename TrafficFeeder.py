@@ -1,15 +1,19 @@
 from __init__ import *
 
-store = HDFStore("storeTraffic.h5")
+#store = HDFStore("storeTraffic.h5")
 data = pd.Series.from_csv("10min_workload.csv", header=None, index_col=None)
-# def read_config():
-#     parser = SafeConfigParser()
-#     parser.read('configNeural.cfg')
-#     hidden_layer = int(parser.get("Neural","hidden_layer"))
-#     epochs = int(parser.get("Neural","epochs"))
-#     return hidden_layer, epochs
 
+"""
+    Contains some functions to extract data from World Cup 1998.
+
+"""
 class TrafficFeeder():
+
+    """
+        Arg:
+            n_input: Size of sliding window
+            n_periodic: Number of past periodic
+    """
     def __setup__(self, n_input, n_periodic=0):
         self.n_input = n_input
         self.n_periodic = n_periodic
@@ -29,16 +33,13 @@ class TrafficFeeder():
         self.workload = data[142 * range_training[0] - self.n_input:142 * range_training[1]]
         data_training = self.normalize(self.workload)
         X_training = self.getTraining(self.workload)
-        #         data_validation = data[142*range_training[1]-self.n_input:142*(range_training+range_test)]
         data_test = self.normalize(data[142 * range_training[0]:142 * range_training[1]])
         return np.asarray(X_training), np.asarray(data_test)
 
     def generate_test(self, range_training):
         # In[62]:
         self.workload = data[142 * range_training[0] - self.n_input:142 * range_training[1]]
-        data_training = self.workload
         X_training = self.getTraining(self.workload)
-        #         data_validation = data[142*range_training[1]-self.n_input:142*(range_training+range_test)]
         data_test = data[142 * range_training[0]:142 * range_training[1]]
         return np.asarray(X_training), np.asarray(data_test)
 
@@ -60,9 +61,18 @@ class TrafficFeeder():
             X_training.append(temp)
         return X_training
 
+    """
+        Arg:
+            n_input: Size of sliding window
+            n_periodic: Number of past periodic
+            range_training: Day range in World Cup data. Ex range_training = (40,46) means that we get all connections from day 40 to 46
+        Output:
+            Return matrix data with size [142* day_range:(n_input+n_periodic]
+    """
     def fetch_traffic_training(self,n_input,n_periodic,range_training):
         self.__setup__(n_input,n_periodic)
         return self.generate(range_training=range_training)
+
     def fetch_traffic_test(self,n_input,n_periodic,range_test):
         self.__setup__(n_input,n_periodic)
         return self.generate_test(range_training=range_test)
