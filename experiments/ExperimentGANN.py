@@ -1,18 +1,12 @@
 import matplotlib.pyplot as plt
-import numpy as np
-from GAEstimator import GAEstimator
+from math import sqrt
+from estimators.GAEstimator import GAEstimator
 from sklearn.metrics import mean_squared_error
 
-from TrafficFeeder import TrafficFeeder
+from data.TrafficFeeder import TrafficFeeder
 from estimators.NeuralFlow import NeuralFlowRegressor
+from utils.GraphUtil import *
 
-
-def plot_fig(y_pred,y_actual,label=["Predict","Actual"]):
-    ax= plt.subplot()
-    ax.plot(y_pred,label=label[0])
-    ax.plot(y_actual,label=label[1])
-    ax.legend()
-    plt.show()
 if __name__ == '__main__':
     n_input = 4
     n_periodic = 1
@@ -36,7 +30,7 @@ if __name__ == '__main__':
     neuralNet = NeuralFlowRegressor()
     neuralNet.fit(X_train,y_train,**fit_param)
     y_pred = dataFeeder.convert(neuralNet.predict(X_test))
-    print np.sqrt(mean_squared_error(y_pred,y_test))
-    plot_fig(y_pred,y_test)
+    print sqrt(mean_squared_error(y_pred,y_test))
+    plot_figure(y_pred,y_test)
 
 

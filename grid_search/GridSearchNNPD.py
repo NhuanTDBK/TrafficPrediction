@@ -1,7 +1,7 @@
 import numpy as np
 from joblib import Parallel,delayed
 
-from TrafficFeeder import TrafficFeeder
+from data.TrafficFeeder import TrafficFeeder
 from estimators.NeuralFlow import NeuralFlowRegressor
 
 

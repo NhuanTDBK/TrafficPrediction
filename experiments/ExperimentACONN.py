@@ -3,7 +3,7 @@ import numpy as np
 from estimators.ACOEstimator import ACOEstimator
 from sklearn.metrics import mean_squared_error
 
-from TrafficFeeder import TrafficFeeder
+from data.TrafficFeeder import TrafficFeeder
 from estimators.NeuralFlow import NeuralFlowRegressor
 
 

@@ -1,7 +1,8 @@
 from __init__ import *
-
+import pandas as pd
+import numpy as np
 #store = HDFStore("storeTraffic.h5")
-data = pd.Series.from_csv("10min_workload.csv", header=None, index_col=None)
+data = pd.Series.from_csv("../data/10min_workload.csv", header=None, index_col=None)
 
 """
     Contains some functions to extract data from World Cup 1998.

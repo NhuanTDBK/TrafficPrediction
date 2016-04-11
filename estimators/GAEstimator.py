@@ -81,6 +81,4 @@ class GAEstimator(BaseEstimator):
     def score(self,X,y):
         return np.sqrt(mean_squared_error(y, self.predict(X)))
 
-weights = [1,3,4]
-print isinstance(weights,np.ndarray)
 

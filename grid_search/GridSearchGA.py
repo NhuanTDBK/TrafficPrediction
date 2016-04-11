@@ -1,9 +1,9 @@
 from GAEstimator import GAEstimator
 from sklearn.grid_search import GridSearchCV
 
-from SplitTrainTest import SplitTrainTest
-from TrafficFeeder import TrafficFeeder
+from data.TrafficFeeder import TrafficFeeder
 from experiments.initializer import *
+from utils.SplitTrainTest import SplitTrainTest
 
 param_dicts = {
     "cross_rate":[0.6,0.65,0.7,0.8,0.9],

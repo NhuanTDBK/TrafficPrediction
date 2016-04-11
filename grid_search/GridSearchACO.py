@@ -1,9 +1,9 @@
 from estimators.ACOEstimator import ACOEstimator
 from sklearn.grid_search import GridSearchCV
 
-from SplitTrainTest import SplitTrainTest
-from TrafficFeeder import TrafficFeeder
+from data.TrafficFeeder import TrafficFeeder
 from experiments.initializer import *
+from utils.SplitTrainTest import SplitTrainTest
 
 param_dicts = {
     "Q":np.arange(0.01,0.1,step=0.01),

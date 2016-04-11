@@ -1,0 +1,11 @@
+#-----------Library---------
+Install cac thu vien trong file requirement: sudo pip install -r requirements 
+Install thu vien Genetic Algorithm: sudo easy_install pyevolve
+#----------Folder Structure-------
+estimators:  cac model cai dat thuat toan Genetic Algorith, ACO, Neural Network
+io_utils: 1 so ham de lay du lieu ( tuy theo moi bai toan )
+utils: cac ham ho tro viec ve bieu do, khoi tao ngau nhien cac trong so,...
+#---------How to Use--------
+Nhin trong co nhieu cach ket hop mang neuron voi cac thuat toan tien hoa de toi uu hoa. 
+Trong model cai san, cach ket hop la nhu sau: Tim trong so khoi tao nho thuat toan Genetic Algoritm -> Dua trong so vao mang Neural -> Huan luyen mang
+
