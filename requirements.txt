@@ -1,6 +1,0 @@
-lasagne
-nolearn
-scikit-learn
-pandas
-numpy
-pymongo>=2.7.1
